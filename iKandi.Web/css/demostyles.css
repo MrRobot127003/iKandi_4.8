@@ -1,0 +1,106 @@
+body {
+	font-family:Lucida Sans Unicode;
+	font-size:12px;
+}
+.fittingcontainer{width:1210px; padding:0px; margin:0px; background-color:#f2f2f2; border:1px solid #c3c3c3; text-align:center;}
+.fittingcontainer2
+{
+    width: 100%;
+    padding: 0px;
+  }
+h1{font-size:16px;}
+
+body div > ul {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.fittingcontainer2 ul li {
+	list-style: none;
+	float: left;
+	margin-right:1px;
+}
+.fittingcontainer2 ul li a {
+	font-weight: normal;
+	display: inline-block;
+	color: #ffffff;
+	outline: 0;
+	text-decoration: none;
+	width:113px;
+	text-align:center;
+	border:1px solid #c3c3c3;
+	border-bottom:none;
+	background-image:url(../images/currentbg.gif);
+	background-repeat:repeat-x;	
+	height:37px;
+	line-height:37px;
+	margin:5px 2px;
+}
+
+.fittingcontainer2 ul li a.current {
+	color: black;
+	background: #ffffff;
+}
+div.tabscontent > div {
+	border-top:none;
+}
+
+div.controls {
+	float: right;
+}
+div.controls a {
+	margin-left: 5px;
+}
+.lorem th {
+	background-image:url(../images/currentbg.gif);
+	background-repeat:repeat-x;
+	height:37px;
+	color:#FFFFFF;
+	font-weight:normal;
+	text-align:center;
+	font-size:10px;
+}
+.lorem td {
+	background-color:#FFFFFF;
+	height:37px;
+	color:#000000;
+	font-weight:normal;
+	text-align:center;
+	font-size:10px;
+	border:1px solid #000000;
+	border-collapse:collapse;
+}
+.redA{background-color:#F9F9FA !important; color:#807F80;}
+.redB{background-color:#ff3300 !important; color:#FFFF66;}
+.redC{background-color:#FFFFFF !important; color:#000000;}
+.redD{background-color:#fd9903 !important; color:#000000;}
+.darkyellow{background-color:#f5db8b !important;}
+.green{background-color:#00ff70 !important;}
+.greenbluetext{background-color:#00ff70 !important; color:#0000ff !important;}
+.lightyellow{background-color:#fbf9ae !important; color:#0000ff !important;}
+.lightpink{background-color:#e3d5e6 !important; color:#0000ff !important;}
+.buyinghouse th {
+	background-image:url(../images/currentbg.gif);
+	background-repeat:repeat-x;
+	height:37px;
+	color:#FFFFFF;
+	font-weight:normal;
+	text-align:center;
+	font-size:10px;
+}
+.buyinghouse td {
+	background-color:#FFFFFF;
+	height:37px;
+	color:#000000;
+	font-weight:normal;
+	text-align:center;
+	font-size:10px;
+	border-collapse:collapse;
+}
+.bluelink{color:#0000ff !important; text-decoration:underline; font-size:11px;}
+
+a
+{
+    text-decoration:none;
+    cursor:pointer;   
+}

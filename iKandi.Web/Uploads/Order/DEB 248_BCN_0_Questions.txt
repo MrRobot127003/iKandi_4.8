@@ -1,0 +1,14 @@
+1. singleton pattern
+2. repogetry pattern
+3. can we inharit static class -- no
+4. extension method
+5. how many binds in wcf
+6. if same function in two library then how can we detect
+7. angular some questions
+8. prototype in javascript
+
+
+
+
+
+ 

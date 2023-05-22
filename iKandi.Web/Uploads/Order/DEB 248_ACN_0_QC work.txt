@@ -1,0 +1,35 @@
+Database : Support_Issues
+
+Create table : QualityControl_LineMan_QC
+
+stored Proc :
+
+1. sp_quality_control_get_LineMan_Qc
+3. Usp_DeleteQc_Lineman
+4. Usp_InsertQc_Lineman
+5. sp_quality_control_get_basic_info
+
+
+
+
+Page :
+1. iKandi.Common\Entities\QualityControl.cs 
+
+2. iKandi.DAL\QualityControlDataProvider.cs
+function:
+(a). DeleteQc_Lineman
+(b). InsertQc_Lineman
+(c). UpdateQualityNew
+(d). InsertQualityNew
+(e). GetQualityControl
+
+
+3. iKandi.BLL\Quality\QualityController.cs
+
+function:
+(a). DeleteQc_Lineman
+(b). InsertQc_Lineman
+
+4. iKandi.Web\UserControls\Forms\QC.ascx.cs
+
+

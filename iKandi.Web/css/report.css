@@ -1,0 +1,331 @@
+﻿     h2{
+            color: #fff;
+            background: #39589c;
+            text-align: center;
+            margin: 3px 0px;
+            font-weight: normal;
+            font-size: 15px;
+        }
+        .CommoAdmin_Table
+        {
+            border: 1px solid #999;
+            border-collapse: collapse;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .CommoAdmin_Table th
+        {
+            background: #dddfe4;
+            border: 1px solid #999;
+            border-collapse: collapse;
+            font-size: 11px;
+            font-weight: 500;
+            padding: 3px 3px;
+            color: #575759;
+            font-family: "Lucida Sans Unicode";
+            text-align:center;
+        }
+        .CommoAdmin_Table td
+        {
+            border: 1px solid #dbd8d8;
+            font-size: 11px;
+            padding: 0px 3px;
+            color: #272626;
+            height: 21px;
+           font-family: "Lucida Sans Unicode";
+            color:Gray;
+        }
+         .CommoAdmin_Table td:first-child
+        {
+            border-left-color:#999 !important;
+        }
+       .CommoAdmin_Table td:last-child
+        {
+            border-right-color:#999 !important;
+        }
+          .CommoAdmin_Table tr:last-child > td
+        {
+            border-bottom-color:#999 !important;
+        }
+        .CommoAdmin_Table td input[type="text"]
+        {
+            width: 98%;
+            height: 12px;
+            font-size: 11px;
+            font-family: "Lucida Sans Unicode";
+            text-align: left;
+             padding-left: 2px;
+             margin: 1px 0px;
+        }
+         .CommoAdmin_Table td textarea
+         {
+             font-size: 11px;
+            font-family: "Lucida Sans Unicode";
+             margin: 1px 0px;
+             width:95%;
+          }
+        .btnGo
+        {
+            font-size:12px;
+            padding:1px 8px;
+            background:#13a747;
+            border-radius:2px;
+            color:#f5f5f5;
+            border:1px solid green;
+            cursor:pointer;
+        }
+        .Footer_row_bottom td
+        {
+            border-bottom-color:#999 !important;
+         }
+        .fontsize
+        {
+            font-size: 12px !important;
+            color: #fff;
+        }
+        .InternalAdminTable
+        {
+            border: 1px solid #999;
+            border-collapse: collapse;
+            font-family: "Lucida Sans Unicode";
+            width: 1050px;
+        }
+        .InternalAdminTable th
+        {
+            background:#dddfe4;
+            border: 1px solid #999;
+            border-collapse: collapse;
+            font-size: 11px;
+            font-weight: 500;
+            padding: 3px 3px;
+            color: #272626;
+            font-family: "Lucida Sans Unicode";
+            min-width: 50px;
+            color: #575759;
+                text-align: center;
+        }
+        .InternalAdminTable td
+        {
+            border: 1px solid #dbd8d8;
+            font-size: 11px;
+            padding: 0px 3px;
+            color: #272626;
+            height: 12px;
+           font-family: "Lucida Sans Unicode";
+            text-align:center;
+            color:Gray;
+        }
+         .InternalAdminTable td:first-child
+        {
+            border-left-color:#999 !important;
+        }
+       .InternalAdminTable td:last-child
+        {
+            border-right-color:#999 !important;
+        }
+        .InternalAdminTable tr:last-child > td
+        {
+            border-bottom-color:#999 !important;
+        }
+        .InternalAdminTable td input[type="text"]
+        {
+            width: 98%;
+            height: 9px;
+            font-size: 10px;
+            font-family: Arial;
+             margin: 1px 0px;
+             padding-left: 2px;
+        }
+        .textCenter
+        {
+            text-align: center;
+        }
+        .textLeft
+        {
+            text-align: left; /* background: yellow !important; */
+        }
+        
+        .facolor
+        {
+            color: gray;
+        }
+        
+        .selectDiv
+        {
+            margin: 5px 0px 5px;
+        }
+        .InternalAdminTable td p
+        {
+            color: #716e6e;
+            text-decoration: none;
+        }
+        .InternalAdminTable td a
+        {
+            text-decoration: none;
+        }
+        .topHeading
+        {
+            background: #39589c;
+            text-align: center;
+            padding: 2px 0px;
+            border: 1px solid #999;
+            border-radius: 2px;
+        }
+        .colorDate
+        {
+            color: blue !important;
+        }
+        .colorPass
+        {
+            color: green !important;
+        }
+        .colorFail
+        {
+            color: red !important;
+        }
+        .btnbutton
+        {
+            background:  rgb(19, 167, 71);
+            color: #fff;
+            border: 1px solid green;
+            padding: 3px 8px;
+            border-radius: 2px;
+            font-size: 11px;
+            font-family: Arial;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+         .btnbutton_Com
+        {
+             background: rgb(19, 167, 71);
+            color: #fff;
+            border: 1px solid green;
+            padding: 3px 8px;
+            border-radius: 2px;
+            font-size: 11px;
+            font-family: Arial;
+            cursor: pointer;
+        }
+        .btnPrint {
+        margin-left: 5px;
+        font-size: 12px !important;
+      
+        color: rgb(255, 255, 255);
+        font-weight: normal;
+        width: 52px;
+        cursor: pointer;
+        background: #39589c !important;
+        height: 20px;
+        line-height: 20px;
+        border: none !important;
+        border-radius: 2px;
+    }
+      .btnPrint:hover
+      {
+          color:Yellow;
+       }
+        .AddClass_Table
+        { 
+            border-collapse: collapse;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .AddClass_Table th
+        {
+            background: #dddfe4;
+            border: 1px solid #999;
+            border-collapse: collapse;
+            font-size: 11px;
+            font-weight: 500;
+            padding: 3px 3px;
+            color: #6b6464;
+           font-family: Arial, Helvetica, sans-serif;
+            text-align:center;
+        }
+        .AddClass_Table td
+        {
+            border: 1px solid #dbd8d8;
+            font-size: 11px;
+            padding: 0px 3px;
+            color: #0c0c0c;
+            height: 12px;
+            font-family : Arial, Helvetica, sans-serif;
+            
+        }
+         .AddClass_Table td:first-child
+        {
+            border-left-color:#999 !important;
+        }
+       .AddClass_Table td:last-child
+        {
+            border-right-color:#999 !important;
+        }
+        .AddClass_Table tr:last-child > td
+        {
+            border-bottom-color:#999 !important;
+        }
+        .AddClass_Table td input[type="text"]
+        {
+            width: 98%;
+            height: 12px;
+            font-size: 11px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+             padding-left: 2px;
+             margin: 1px 0px;
+             text-transform: capitalize;
+        }
+         .AddClass_Table td textarea
+         {
+             font-size: 11px;
+             font-family : Arial, Helvetica, sans-serif;
+             margin: 1px 0px;
+             width:95%;
+             text-transform: capitalize;
+          }
+        .m-t-10
+        {
+            margin-top:10px !important;
+         }
+        .m-t-5
+        {
+         margin-top:5px !important;
+        }
+        .m-b-10
+        {
+            margin-bottom:10px !important;
+         }
+        .m-b-5
+        {
+         margin-bottom:5px !important;
+        }
+        .p-l-2
+        {
+            padding-left:2px !important;
+         }
+       .p-l-5
+        {
+            padding-left:5px !important;
+         }
+         .barder_top_color
+         {
+             border-top-color:#999 !important;
+          }
+          .AddClass_Table.innerTable
+          {
+              border:0px
+           }
+          .AddClass_Table.innerTable td:first-child
+          {
+              border-left:0px
+           }
+           .AddClass_Table.innerTable td:last-child
+          {
+              border-right:0px
+           }
+            .AddClass_Table.innerTable th:first-child
+          {
+              border-left:0px
+           }
+           .AddClass_Table.innerTable th:last-child
+          {
+              border-right:0px
+           }

@@ -1,0 +1,97 @@
+.ac_results {
+       padding: 5px;
+      /* border: 1px solid black;*/
+         border: 1px solid #999;
+       background-color: white;
+       overflow: hidden;
+       z-index: 99999;
+}
+
+.ac_results ul {
+       width: 100%;
+       list-style-position: outside;
+       list-style: none;
+       padding: 0;
+       margin: 0;
+}
+
+.ac_results li {
+    margin: 0px;
+    cursor: default;
+    display: block;
+    padding: 0px;
+    font: menu;
+    font-size: 11px;
+    overflow: hidden;
+    text-align: left;
+    cursor: pointer;
+}
+
+/*.ac_results li {
+       margin: 0px;
+       padding: 2px 5px;
+      /* padding-bottom:2px;*/
+      /* padding-bottom:0px;
+       cursor: default;
+       display: block;
+       /* 
+       if width will be 100% horizontal scrollbar will apear 
+       when scroll mode will be used
+       */
+       /*width: 100%;*/
+      /* font: menu;
+       font-size: 11px;
+       /* 
+       it is very important, if line-height not setted or setted 
+       in relative units scroll will be broken in firefox
+       */
+      /* line-height: 15px;
+       overflow: hidden;
+       text-align:left;
+}*/
+
+.ac_loading {
+       background: white url('images/indicator.gif') right center no-repeat;
+}
+
+/*.ac_odd {
+       background-color: #eee;
+}
+
+.ac_over {
+        /* background-image: url(images/globalheader.png);*
+       color: white;
+       background:#999;
+       /*background-image url(images/globalheader.png); Z-INDEX: 9999999*/
+/*}*/
+/*add css by bharat on 19-04 2019*/
+
+/*.ac_results ul > li:first-child {
+    background: #4061ab;
+    color: #f8f8f8 !important;
+}*/
+ .ac_over
+    {
+        background: #999;
+    }
+    .ac_odd table td
+    {
+        border-color: #e1e1e1;
+    }
+    .ac_even table td
+    {
+        border-color: #e1e1e1;
+    }
+    table
+    {
+        border-color: #e1e1e1;
+    }
+
+.ac_results ul li table {
+  border-collapse: collapse;
+}
+.ac_results ul li table td
+{
+    border-color:#999;
+    border:1px solid #999;
+  }

@@ -1,0 +1,1209 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link href="App_Themes/ikandi/_ui-lightness/jquery-ui-1.8.6.custom.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ikandi/AccessoriesOrder.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ikandi/centering_styles.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ikandi/colorpicker.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ikandi/facebox.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ikandi/ikandi.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ikandi/ikandi1.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ikandi/jquery.autocomplete.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ikandi/jquery.jcarousel.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ikandi/jquery.lightbox-0.5.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ikandi/jquery.safari-checkbox.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ikandi/jquery.tooltip.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ikandi/jquery.ui.dialog.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ikandi/jquery.ui.resizable.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ikandi/loadingbox.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ikandi/scrollable-buttons.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ikandi/scrollable-horizontal.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ikandi/skinie6.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ikandi/slide.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ikandi/slidepanel.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ikandi/style.css" type="text/css" rel="stylesheet" /><link href="App_Themes/ikandi/thickbox.css" type="text/css" rel="stylesheet" /><title>
+
+</title>
+    <style type="text/css">
+       /* @media print{@page {size: landscape}}*/
+        body
+        {
+            background: #fff none repeat scroll 0 0;
+            font-family: arial !important;
+        }
+        table
+        {
+            font-family: arial;
+            border-color: #dbd8d8;
+            border-collapse: collapse;
+                text-transform: capitalize;
+        }
+        
+         table td
+        {
+           height:15px;
+            font-size: 10px;
+          
+        }
+        .lastrow tbody .HeaderClass td
+        {
+            background-color:#dddfe4!important;
+            border: 1px solid #bfbfbf;
+            color:Gray;
+            }
+    .purchase_order {
+            width: 950px;
+            border: 1px solid #dbd8d8;
+        }
+ @media print {  @page { margin: 0; }
+  body {-webkit-print-color-adjust: exact; margin: 1.6cm;}
+ .printHideButton { display: none; }
+      .HeaderClass td
+        {
+            background: #dddfe4;
+	        font-weight: normal;
+	        color: #575759;
+	        font-family: arial;
+	        font-size: 11px;
+	        padding: 0px 0px;
+	        border-color: #999;
+	        font-family: arial !important;
+        }
+      
+         .purchase_order 
+           {
+             width:950px;
+             border: 1px solid #dbd8d8;
+            }
+         .purchase_order input
+         {
+             margin:1px 0px;
+          }
+          input[type="text"]
+          {
+                margin: 2px 1px;
+                font-size:10px !important;
+                font-family:Arial !important;
+                height:15px;
+           }
+       .purchase_order thead th
+       {
+           border:1px solid #dbd8d8;
+           padding:5px 0px;
+           text-align:center;
+           text-align: center;
+           font-weight: 600 !important;
+           font-size: 12px;
+        }
+        .purchase_order tbody th
+       {
+           border:1px solid #999;
+           padding: 5px 7px;
+            font-weight: 500;
+        }
+       .purchase_order tbody td
+       {
+          
+           padding: 0px 5px;
+           border-color:#dbd8d8;
+        }
+       select
+       {
+           width: 90px;
+           height:19px;
+         }
+      
+       .supplieretadatetable td input[type="text"]
+       {
+           width:92%;
+           margin:1px 0px;
+            font-size:10px !important;
+            font-family:Arial !important;
+        }
+        .supplieretadatetable td
+        {
+            text-align:center;
+         }
+        #grdqtyrange th
+        {
+            background: #dddfe4;
+            padding:2px 2px;
+             width: 98px;
+             text-align:center;
+             border-color:#999;
+             color:#575759;
+            }
+             ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0px 2px;
+            max-width: 98%;
+          }
+        li{
+                padding: 1px 0px 1px;
+                font-size: 10px;
+                line-height: 13px;
+                color:Gray;
+                font-family:arial;
+                text-transform:capitalize;
+        }
+        .backgroundcolorclass
+        {
+            background-color:#dddfe4;
+        }
+        .receivehis
+        {
+            float:left;
+            margin-right:10px;
+            
+         }
+          .receivehis td
+        {
+            border:1px solid #999;
+            
+         }
+          .receivehis th
+        {
+               background: #dddfe4;
+              padding: 2px 2px;
+              text-align:center;
+              border:1px solid #999;
+              color:#575759;
+         }
+        .receivehis td:first-child
+        {
+            border-left-color:#999 !important
+        }
+        
+        .lastrow td { text-align:center; }   
+
+    .txtcenter
+    {
+        text-align:center}
+        
+       .lastrow tr:nth-last-child(1)>td {
+          border-bottom-color:#999 !important;
+        } 
+        
+
+
+        a.tooltips
+        {
+            position: relative;
+            display: inline;
+        }
+        
+        a.tooltips span
+        {
+            position: absolute;
+            width: 350px;
+            color: #FFFFFF;
+            background: #000000;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            visibility: hidden;
+            border-radius: 6px;
+        }
+        
+        a.tooltips span:after
+        {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 35%;
+            margin-left: -8px;
+            width: 0;
+            height: 0;
+            border-top: 8px solid #000000;
+            border-right: 8px solid transparent;
+            border-left: 8px solid transparent;
+        }
+        
+        a:hover.tooltips span
+        {
+            visibility: visible;
+            opacity: 0.8;
+            bottom: 30px;
+            left: 50%;
+            margin-left: -140px;
+            z-index: 999;
+        }
+        #sb-wrapper-inner
+        {
+            border: 5px solid #999;
+            border-radius: 4px;
+        }
+        #divguidline div
+        {
+            width:816px !important;
+            border-color: #999 !important;
+            padding-top: 5px !important;
+        }
+        .btnClose
+        {
+            margin-left: 10px;
+            color: rgb(255, 255, 255);
+            font-size: 12px !important;
+            float: left;
+            font-weight: 600;
+            width: 52px;
+            cursor: pointer;
+            background: rgb(19, 167, 71);
+            height: 24px !important;
+            line-height: 24px !important;
+            border: none !important;
+            border-radius: 2px;
+            text-align: center;
+            text-transform: capitalize;
+             font-family: arial !important;
+        }
+        .btnClose:hover
+        {
+            color: red;
+        }
+        .btnSubmit
+        {
+
+            font-size: 12px !important;
+            cursor: pointer;
+            background: rgb(19, 167, 71);
+            height: 24px !important;
+            line-height: 24px !important;
+            border: none !important;
+            border-radius: 2px;
+            margin-left: 5px;
+            text-align: center;
+            text-transform: capitalize;
+             font-family: arial !important;
+        }
+        .btnSubmit:hover
+        {
+            color: Yellow !important;
+        }
+        .footerCotent #btnok
+        {
+            background: green;
+            color: #fff;
+            cursor: pointer;
+            padding: 1px 7px;
+            border: 1px solid green;
+            border-radius: 2px;
+            font-size: 11px;
+            position: relative;
+            transition: .5s ease;
+            top: 8px;
+            left: 157px;
+            right: 0px;
+        }
+        .footerCotent #Btncancel
+        {
+            background: red;
+            color: #fff;
+            cursor: pointer;
+            padding: 1px 7px;
+            border: 1px solid red;
+            border-radius: 2px;
+            font-size: 11px;
+            position: relative;
+            top: 8px;
+            left: 4px;
+            right: 0px;
+            float: right;
+        }
+        .footerCotent
+        {
+            height: auto;
+            width: 94%;
+            margin: 5px auto;
+            text-align: right;
+            padding-right: 5px;
+        }
+        .btnPrint
+        {
+            margin-left: 10px;
+            font-size: 12px !important;
+            float: left;
+            color: rgb(255, 255, 255);
+            font-weight: 500;
+            width: 52px;
+            cursor: pointer;
+            background: #39589c !important;
+            height: 24px !important;
+            line-height: 24px !important;
+            border: none !important;
+            border-radius: 2px;
+            text-align: center;
+            text-transform: capitalize;
+             font-family: arial !important;
+        }
+        .btnPrint:hover
+        {
+            color: Yellow !important;
+        }
+        #secure_footer
+        {
+            display: none;
+        }
+        #secure_banner_cor
+        {
+            padding: 0px !important;
+        }
+        #main_content
+        {
+            width: 100% !important;
+        }
+        #secure_center_contentWrapper
+        {
+            width: 99.5% !important;
+        }
+        input[readonly]
+        {
+           /* background: #CCC;*/
+            color: #8e8e8e;
+            border: 1px solid #666;
+            font-family:Arial;
+            font-size:10px !important;
+        }
+        .displaynoneSup th:last-child
+        {
+            display: none;
+        }
+        .displaynoneSup td:last-child
+        {
+            display: none;
+        }
+        .AuthoriImage
+        {
+            max-width: 150px;
+            min-width: 100px;
+            max-height: 46px;
+            position: relative;
+            top: -5px;
+            right: 2%;
+        }
+        .AuthoriImage img
+        {
+            width: 80%;
+            height: 29px;
+        }
+        .center_bodyCentering
+        {
+            overflow-x: hidden;
+        }
+        .border_right_color
+        {
+            border-right-color: #999 !important;
+        }
+        #grdqtyrange
+        {
+            text-align: center;
+        }
+        #grdqtyrange td:first-child
+        {
+            border-left-color: #999 !important;
+        }
+        #grdqtyrange td:last-child
+        {
+            border-right-color: #999 !important;
+        }
+        #grdqtyrange tr:nth-last-child(1) > td
+        {
+            border-bottom-color: #999 !important;
+        }
+        .colwidthG
+        {
+            min-width: 40px;
+            max-width: 40px;
+            height: 29px; 
+            border:none;     
+        }
+        .colwidthC
+        {
+            min-width: 40px;
+            max-width: 40px;
+            height: 29px;
+        }
+        td.colwidthG
+        {
+        border-right: 1px solid #999;
+        border-right: 0px;
+        border-top: none;
+        border-bottom: none;
+        }
+        .colwidthinnr
+        {
+            min-width: 40px;
+            max-width: 40px;
+            height: 29px;
+        }
+        
+        td.colwidthinnr
+        {
+            border-right: 1px solid #dbd8d8;
+        }
+        .tdpadding0
+        {
+            padding: 0px !important;
+        }
+        input[type="checkbox"]
+        {
+            position: relative;
+            top: 2px;
+        }
+        .AuthorizedSignatorydate
+        {
+            float: right;
+            right: 35%;
+            position: relative;
+        }
+        .AuthorizedSignatorydate1
+        {
+            
+            position: relative;
+           
+        }
+        .PositionRight
+        {
+            right: 11% !important;
+        }
+        .RightCheckBox input[type="checkbox"]
+        {
+            right: 5px;
+        }
+        .center
+        {
+            margin: auto;
+            width: 90%;
+            border: 3px solid #73AD21;
+            padding: 10px;
+            margin-top: -416px;
+            background: #39589c;
+        }
+        .ModelPo
+        {
+            background: #fff;
+            width: 300px;
+            margin: -32% auto;
+            text-align: center;
+            position: relative;
+            z-index: 100000;
+         
+        }
+        .ModelPo2
+        {
+               background: #e6e6e6;
+                width: 570px;
+                margin: -40% auto;
+                text-align: center;
+                position: relative;
+                z-index: 100000;
+                padding: 0px 0px 15px;
+
+        }
+        .backcolorpo
+        {
+                background: #eae7e7;
+                width: 285px;
+                min-height: 89px;
+                padding: 0px 0px;
+                position:fixed;
+                /* box-shadow: 0px 0px 1px 3px #c5a0a099; */
+                border-radius: 2px;
+                top: calc(50% - 50px/2);
+                left: calc(40% - 50px/2)
+        }
+        .BodyContect h2
+        {color:#fff;
+            background: #39589c;
+            width: 100%;
+            padding: 8px 0px;
+        }
+        
+        .backcolorpo .btnOk
+        {
+            background: #4CAF50;
+            color: #fff;
+            border: 1px solid #4CAF50;
+            border-radius: 2px;
+            cursor: pointer;
+            font-size: 12px;
+         }
+         .backcolorpo .btnCancel
+        {
+            background: #39589c;
+            color: #fff;
+            border: 1px solid #39589c;
+            border-radius: 2px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+
+        .BodyContect
+        {
+            margin-bottom:10px;
+         }
+       .etadate{
+          font-size:11px !important;
+          width:80% !important;
+        }
+        .tableCenter td input
+        {
+            text-align: center;
+        }
+        .tableCenter td
+        {
+            text-align: center;
+            border:1px solid #9999;
+        }
+        .boldness{font-weight:bold;}
+        .color_black{ color:Black !important}
+        
+        .tableCenter td:last-child
+        {
+          border-right-color:#999;  
+        }
+        .tableCenter tr:last-child > td
+        {
+          border-bottom-color:#999;  
+        }
+        <style>
+    /* tr:nth-child(even) */
+    tr.even { background-color: #F4F4F8; }
+    /* tr:nth-child(odd) */
+    tr.odd { background-color: #EFF1F1; }
+  @media screen and (max-width:1066px)
+    {
+        .ModelPo2
+        {
+           margin: -50% auto;
+        }
+    }
+    
+    .HistoryUl {
+
+    position: relative;
+    left: -1px;
+    margin: 0px;
+}
+.imgviewhi
+{max-height: 18px;
+    max-width: 33px;
+    vertical-align: bottom;
+    }
+    #divbipladdress span
+    {
+        font-size:11px !important;
+      }
+HistoryUl ::marker {content: "•"; color: red;
+  display: inline-block; width: 1em;
+  margin-left: -1em}
+.LiCircel
+{
+    width: 7px;
+    height: 7px;
+    border-radius: 50px;
+    background: gray;
+    display: inline-block;
+     margin-right: 3px;
+ }
+  ::-webkit-scrollbar {
+            width: 8px;
+             height: 8px;
+        }
+        ::-webkit-scrollbar-thumb {
+        background: #999;
+        border: 1px solid #ddd7d7;
+        border-radius: 10px;
+    }
+    #sb-wrapper-inner
+    {
+        background:#fff;
+     }
+     .center_bodyCentering
+     {
+         background:#fff !important;
+      }
+
+
+      .hideresidual
+      {
+           display:none;
+          
+          
+          }
+        
+</style>
+</head>
+<body>
+    <form name="form1" method="post" action="FabricPurChasedFormPrint.aspx?FabricQualityID=524&amp;Fabtype=FINISHED&amp;Potype=RAISE&amp;ParentPageUrlWithQuerystring=http%3a%2f%2flocalhost%3a3241%2fInternal%2fFabric%2fFabricViewAll.aspx%3fFabricDetails%3dDtm+Black+Riv+178&amp;TradeName=Cotton+Jersey&amp;SupplyType=FINISHED&amp;MasterPoID=0&amp;colorprintdetail=Dtm+Black+Riv+178&amp;gerige=0&amp;residual=8&amp;cutwastage=12&amp;currentstage=0&amp;previousstage=0&amp;isStyleSpecific=0&amp;styleid=0&amp;stage1=10&amp;stage2=-1&amp;stage3=-1&amp;stage4=-1&amp;FabricQuality=Cotton+Jersey&amp;AuthName=&amp;AuthPhoto=&amp;ApproName=&amp;ApproPhoto=&amp;PoNumberPrint=CIPF9" id="form1">
+<input type="hidden" name="__VIEWSTATEFIELDCOUNT" id="__VIEWSTATEFIELDCOUNT" value="9" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE1MzQzMDgxMjkPZBYCAgMPZBYuAiEPDxYCHgRUZXh0BQE4ZGQCIw8PFgIeCEltYWdlVXJsBS5odHRwOi8vbG9jYWxob3N0OjMyNDEvaW1hZ2VzL2JvdXRpcXVlLWxvZ28ucG5nZGQCJQ8WAh4JaW5uZXJodG1sBacFPHNwYW4gc3R5bGU9ImZvbnQtd2VpZ2h0OiA2MDA7Zm9udC1zaXplOiAxMnB4O2NvbG9yOiM2YjY0NjQ7Ij5Cb3V0aXF1ZSBJbnRlcm5hdGlvbmFsIChQKSBMVEQ8L3NwYW4+PGJyLz4NCjxzcGFuIHN0eWxlPSJmb250LXdlaWdodDogNTAwO2ZvbnQtc2l6ZTogMTBweDtjb2xvcjojNmI2NDY0O2xpbmUtaGVpZ2h0OiAyMHB4OyI+Qy00NS00Ni00NyBIb3NpZXJ5IENvbXBsZXggTm9pZGEsIFBILUlJLCBHYXV0YW0gQnVkaCBOYWdhciwgVS5QLiAyMDEzMDUuPC9zcGFuPg0KPGJyLz4NCjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDEwcHg7Y29sb3I6IzgwODA4MDtmb250LXdlaWdodDogMzAwOyI+R1NUIE5vOiA8Yj4wOUFBQUNCNDkwNUMxWjUsPC9iPiA8L3NwYW4+DQo8c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxMHB4O2NvbG9yOiM4MDgwODA7Zm9udC13ZWlnaHQ6IDMwMDsiPlRlbDogPGI+KCs5MSkgMTIwIDY3OTc5NzksPC9iPjwvc3Bhbj4NCjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDEwcHg7Y29sb3I6IzgwODA4MDtmb250LXdlaWdodDogMzAwOyI+RmF4OiA8Yj4oKzkxKSAxMjAgNjc5Nzk5OSw8L2I+PC9zcGFuPg0KPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMTBweDtjb2xvcjojODA4MDgw" />
+<input type="hidden" name="__VIEWSTATE1" id="__VIEWSTATE1" value="O2ZvbnQtd2VpZ2h0OiAzMDA7Ij5FLW1haWw6IDxiPmluZm9AYm91dGlxdWUuaW48L2I+PC9zcGFuPmQCJw8WAh8CBQ9QdXJjaGFzZWQgT3JkZXJkAikPDxYCHwAFBUNJUEY5ZGQCKw8PFgIfAAUPMDcgRGVjIDIyIChXZWQpZGQCLQ8QDxYGHg5EYXRhVmFsdWVGaWVsZAUSU3VwcGxpZXJfbWFzdGVyX0lEHg1EYXRhVGV4dEZpZWxkBQ1TdXBwbGllck5hbWUyHgtfIURhdGFCb3VuZGdkDxYIAgECAgIDAgQCBQIGAgcCCBYIEAUlSiBKIEZhYnJpY3Mg4oK5MCAoMCBEYXlzKSAwNyBEZWMgMjAyMgUCMTVnEAU0Q29sbGVjdGlvbiBJbmRpYSBQdnQuTHRkLiDigrkxICg1MCBEYXlzKSAwNyBEZWMgMjAyMgUCMTZnEAUmQklQTCBGQUJSSUMg4oK5MSAoNTAgRGF5cykgMDcgRGVjIDIwMjIFAzEyM2cQBSlTSlIgRU1CUk9JREVSWSDigrkxICg1MCBEYXlzKSAwNyBEZWMgMjAyMgUDMTQ2ZxAFJUogSiBGYWJyaWNzIOKCuTAgKDAgRGF5cykgMDcgRGVjIDIwMjIFAjE1ZxAFNENvbGxlY3Rpb24gSW5kaWEgUHZ0Lkx0ZC4g4oK5MSAoNTAgRGF5cykgMDcgRGVjIDIwMjIFAjE2ZxAFJkJJUEwgRkFCUklDIOKCuTEgKDUwIERheXMpIDA3IERlYyAyMDIyBQMxMjNnEAUpU0pSIEVNQlJPSURFUlkg4oK5MSAoNTAgRGF5cykgMDcgRGVjIDIwMjIFAzE0NmdkZAIvDw8WAh8ABTRDb2xsZWN0aW9uIEluZGlhIFB2dC5MdGQuIOKCuTEgKDUwIERheXMpIDA3IERlYyAyMDIyZGQCMQ8PFgIfAAUPMjYgSmFuIDIzIChUaHUpZGQCMw8PFgIfAAUDUklWZGQC" />
+<input type="hidden" name="__VIEWSTATE2" id="__VIEWSTATE2" value="NQ88KwANAQAPFgQfBWceC18hSXRlbUNvdW50AgFkFgJmD2QWBgICDw8WAh4HVmlzaWJsZWhkZAIDD2QWGGYPZBYCAgcPDxYCHwAFDUNvdHRvbiBKZXJzZXlkZAIBD2QWAgIBDw8WAh8AZWRkAgIPZBYCAgEPDxYCHwAFAzE2MGRkAgMPZBYCAgEPDxYCHwAFCjYwJnF1b3QgaW5kZAIED2QWAgIBDw8WAh8ABRFEdG0gQmxhY2sgUml2IDE3OGRkAgUPDxYCHwAF7AE8dGFibGUgYm9yZGVyPScwJyBjZWxsc3BhY2luZz0nMCcgY2VsbHBhZGRpbmc9JzAnIHN0eWxlPSd3aWR0aDoxMDAlOyBoZWlnaHQ6MTAwJSc+PHRyPjx0ZCBjbGFzcz0nY29sd2lkdGhpbm5yJz4gPC90ZD48dGQgY2xhc3M9J2NvbHdpZHRoaW5uciByZXNpZHVhbCBoaWRlcmVzaWR1YWwnIHN0eWxlPSd3aWR0aDogNDBweDt0ZXh0LWFsaWduOiBjZW50ZXI7ZGlzcGxheTpub25lOyc+ODwvdGQ+PC90cj48L3RhYmxlPmRkAgcPZBYEAgEPEA8WAh8FZ2QPFgkCAQICAgMCBAIFAgYCBwIIAgkWCRAFBkdyZWlnZQUBMWcQBQREeWVkBQEyZxAFB1ByaW50ZWQFATNnEAUIRmluaXNoZWQFAjEwZxAFEEZhYnJpYyBzb2Z0ZW5pbmcFAjI3ZxAFEFdpZHRoIGFkanVzdG1lbnQFAjI4ZxAFA1JGRAUCMjlnEAUNRW1iZWxsaXNobWVudAUCMzBnEAUKRW1icm9pZGVyeQUCMzFnZGQCAw8PFgIfAAUIRmluaXNoZWRkZAIID2QWAgIJDw8WAh4HRW5hYmxlZGhkZAIJD2QWAgIDDw8WAh8ABQExZGQCCg9kFgQCAQ8QDxYEHwVnHwhnZGRkZAIDDw8WAh8ABQJrZ2RkAgsPZBYCAgMPDxYCHwAF" />
+<input type="hidden" name="__VIEWSTATE3" id="__VIEWSTATE3" value="ATFkZAIMD2QWAgIBDw8WAh8ABQExZGQCBA8PFgIfB2hkZAI3DxAPFgIfCGhkZBYBZmQCOQ88KwANAQAPFgQfBWcfBgIBZBYCZg9kFgYCAQ8PFgIfB2hkZAICD2QWBGYPZBYCAgEPDxYCHwAFDzA3IERlYyAyMiAoV2VkKWRkAgEPZBYGAgEPDxYGHglGb3JlQ29sb3IJGM6L/x8AZR4EXyFTQgIEZGQCAw8PFgIfAAUBMWRkAgUPDxYCHwAFA210cmRkAgMPDxYCHwdoZGQCOw88KwANAQAPFgIfB2hkZAI9DzwrAA0BAA8WBB8FZx8GAgFkFgJmD2QWBAIBD2QWCGYPZBYCAgEPDxYCHwAFATFkZAIBD2QWAgIHDw8WAh8ABQExZGQCAg9kFgICAQ8PFgIfAAUPMjYgSmFuIDIzIChUaHUpZGQCAw9kFgICAw8PFgIfB2hkZAICDw8WAh8HaGRkAj8PPCsADQEADxYEHwVnHwYCAWQWAmYPZBYEAgEPD2QWAh4HZGlzcGxheQUEbm9uZRYGZg9kFgJmDxUBATFkAgEPZBYCZg8VAQExZAICD2QWAmYPFQEPMjYgSmFuIDIzIChUaHUpZAICDw8WAh8HaGRkAkEPFgIfAgWDBTx0YWJsZSBib3JkZXI9JzEnIGNsYXNzPSdyZWNlaXZlaGlzIHRhYmxlQ2VudGVyJyBjZWxscGFkZGluZz0nMCcgY2VsbHNwYWNpbmc9JzAnIHN0eWxlPSdtYXJnaW4tdG9wOiAtMTNweDsgYm9yZGVyLXRvcDogMHB4OyB3aWR0aDogMzUycHg7ZmxvYXQ6cmlnaHQ7bWFyZ2luLXJpZ2h0OiAwcHg7dGV4dC1hbGlnbjpjZW50ZXI7Jz48dGhlYWQgc3R5bGU9J2JhY2tncm91bmQtY29sb3I6ICNkZGRmZTQ7Y29sb3I6Z3JheTtib3JkZXI6IDFweCBzb2xpZCBkYXJrZ3JheTsnPjx0cj48" />
+<input type="hidden" name="__VIEWSTATE4" id="__VIEWSTATE4" value="dGggc3R5bGU9J3dpZHRoOiA5MXB4O2JvcmRlcjogMXB4IHNvbGlkIGRhcmtncmF5O3BhZGRpbmc6IDNweDsnPkZyb20gKGtnKSA8L3RoPjx0aCBzdHlsZT0nd2lkdGg6IDkxcHg7Ym9yZGVyOiAxcHggc29saWQgZGFya2dyYXk7cGFkZGluZzogM3B4Oyc+VG8gKGtnKSA8L3RoPjx0aCBzdHlsZT0nd2lkdGg6IDE0OXB4O2JvcmRlcjogMXB4IHNvbGlkIGRhcmtncmF5O3BhZGRpbmc6IDNweDsnPkRhdGU8L3RoPjwvdHI+PC90aGVhZD48dHIgY2xhc3M9J2V2ZW4nPjx0ZCBzdHlsZT0nRm9udC1XZWlnaHQ6Ym9sZDsnPjE8L3RkPjx0ZCBzdHlsZT0nRm9udC1XZWlnaHQ6Ym9sZDsnPjE8L3RkPjx0ZD4yNiBKYW4gMjMgKFRodSk8L3RkPjwvdHI+PC90YWJsZT5kAkMPDxYCHwAFAmtnZGQCRQ8PFgIfAAUCa2dkZAJHD2QWBmYPZBYEAgEPDxYCHwAFATFkZAIDDw8WAh8ABQExZGQCAQ9kFgICAQ8PFgIfAAUBMWRkAgIPZBYCAgEPDxYCHwAFDzI2IEphbiAyMyAoVGh1KWRkAlkPFgIfAgWSFA0KCQkJPGRpdiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlO3dpZHRoOiA5Ny4yJTsgYm9yZGVyOiAxcHggc29saWQgI2Q2Y2NjYzsgcGFkZGluZzogMTBweCAwcHg7Y2xlYXI6IGJvdGg7Y29sb3I6Z3JleTtmb250LXNpemU6MTFweCI+IA0KCQkJCTx1bCBzdHlsZT0ibGlzdC1zdHlsZS10eXBlOiBub25lOyBtYXJnaW46IDA7cGFkZGluZzogM3B4IDRweDsgbGluZS1oZWlnaHQ6IDE3cHgiPiANCgkJCQkJPGxpPiANCgkJCQkJCTx1bCBzdHlsZT0i" />
+<input type="hidden" name="__VIEWSTATE5" id="__VIEWSTATE5" value="bGlzdC1zdHlsZS10eXBlOiBub25lOyBtYXJnaW46IDA7cGFkZGluZzogMHB4IDJweDsiPiANCg0KCQkJCQkJCTxsaSBzdHlsZT0iYm9yZGVyLWJvdHRvbTogMHB4IHNvbGlkICM5OTk5OTk7IHdpZHRoOiAyMC41JTtwYWRkaW5nOjJweCAwcHggMnB4O2NvbG9yOiAjNmI2NDY0O21hcmdpbi1sZWZ0OjBweDsiPiANCgkJCQkJCQkJPHNwYW4+R2VuZXJhbCBJbnN0cnVjdGlvbnMgOi08L3NwYW4+DQoJCQkJCQkJPC9saT4gDQoNCgkJCQkJCQk8dWwgc3R5bGU9Im1hcmdpbi1sZWZ0OjEwcHg7bGlzdC1zdHlsZS10eXBlOiBub25lOyBwYWRkaW5nOiAwcHggMnB4OyI+DQoJCQkJCQkJCTxsaT4xLkFsbCBiaWxscyBtdXN0IHN0YXRlIHRoZSBQdXJjaGFzZSBPcmRlciBudW1iZXIuIE1pc3NpbmcgUE8gbnVtYmVycyBvbiBiaWxscyB3aWxsIG51bGxpZnkgdGhlIGJpbGwuPC9saT4JCQkJCQkJIA0KCQkJCQkJCQk8bGk+Mi5Hb29kIG11c3QgYmUgMTAwJSBjaGVja2VkIG9uIHRhYmxlcyBieSB2ZW5kb3IuIEl0IGlzIGNvbXBsZXRlIHJlc3BvbnNpYmlsaXR5IG9mIHRoZSBzdXBwbGllciB0byBkaXNwYXRjaCBvbmx5IGFjY2VwdGFibGUgZ29vZHMgdW5kZXIgNCBwb2ludCBBUUwuIElmIGdvb2RzIGZhaWwgNSUgY2hlY2sgYXQgQklQTCBvciBhcnJpdmVzIHdpdGhvdXQgMTAwJSBjaGVja2luZyByZXBvcnRzLCBCSVBMIHJlc2VydmVzIHRoZSByaWdodCB0byByZXR1cm4gZ29vZHMgdG8gdmVuZG9yIG9yIGNoYXJnZSB0aGVtIGRhbWFn" />
+<input type="hidden" name="__VIEWSTATE6" id="__VIEWSTATE6" value="ZXMgYW5kIGNoZWNraW5nIGNoYXJnZXMuIDwvbGk+DQoJCQkJCQkJCTxsaT4zLkFueSBxdWFsaXR5IGlzc3VlcyByZWxhdGVkIGJhc2UgcXVhbGl0eSBwYXJhbWV0ZXJzIHdpbGwgbGVhZCB0byBkaXNjb3VudHMgb3IgY2FuY2VsbGF0aW9ucyBieSBCSVBMLjwvbGk+IA0KCQkJCQkJCQk8bGk+NC5SZWplY3RlZCBnb29kcyBtdXN0IGJlIGNvbGxlY3RlZCB3aXRoaW4gYSB3ZWVrLCBlbHNlIEJJUEwgd2lsbCBub3QgYmUgcmVzcG9uc2libGUgZm9yIHRoZSByZXR1cm5hYmxlIGdvb2RzLjwvbGk+IA0KCQkJCQkJCQk8bGk+NS5BbGwgZGlzcHV0ZXMgd2lsbCBiZSBzdWJqZWN0IHRvIERlbGhpIE5DUiBqdXJpc2RpY3Rpb24uPC9saT4gPC91bD4gPC91bD4gPHVsICBzdHlsZT0ibGlzdC1zdHlsZS10eXBlOiBub25lOyBtYXJnaW46IDA7cGFkZGluZzogMHB4IDJweDsiPiANCgkJCQkJCQkJPGxpIHN0eWxlPSJib3JkZXItYm90dG9tOiAwcHggc29saWQgIzk5OTk5OTsgd2lkdGg6IDIwLjUlO3BhZGRpbmc6MnB4IDBweCAycHg7Y29sb3I6ICM2YjY0NjQiPiA8c3Bhbj5Qcm9jZXNzZWQgSW5zdHJ1Y3Rpb25zIDotPC9zcGFuPjwvbGk+DQoJCQkJCQkJPC91bD4gDQoJCQkJCQkJDQoJCQkJCQkJPHVsIHN0eWxlPSJtYXJnaW4tbGVmdDoxMHB4O2xpc3Qtc3R5bGUtdHlwZTogbm9uZTtwYWRkaW5nOiAwcHggMnB4OyI+IA0KCQkJCQkJCQk8bGk+MS5NYXRjaGluZyB0byBiZSBvbiBENjU8L2xpPiA8bGk+Mi5GaW5pc2hpbmcgc2hvdWxk" />
+<input type="hidden" name="__VIEWSTATE7" id="__VIEWSTATE7" value="IGJlIHNpbGljb24gZmluaXNoZWQgaW4gb3ZlcmZlZWRpbmcuIFNvZnQgSGFuZGZlZWwuIEFsbCBwb2x5ZXN0ZXIgYW5kIE55bG9uIGFudGlzdGF0aWMgZmluaXNoIGlzIGEgbXVzdC48L2xpPiANCgkJCQkJCQkJPGxpPjMuRmluaXNoaW5nIHNocmlua2FnZS9EaW1lbnNpb25hbCBzdGFiaWxpdHkgdG8gc3RlYW0gdG8gYmUgKy8tMiUuPC9saT4NCgkJCQkJCQkJPGxpPjQuQmFubmVkIGNoZW1pY2FsczogQXpvLCBQQ1AsIFBIIFZhbHVlIC02LCBoZWF2eSBtZXRhbHMuPC9saT4gDQoJCQkJCQkJCTxsaT41LkJvd2luZyBsZXNzIHRoYW4gMyBpbmNoZXMgd2lsbCBiZSBhY2NlcHRhYmxlLjwvbGk+IA0KCQkJCQkJCQk8bGk+Ni5BZnRlciB3YXNoIHNocmlua2FnZSBzaG91bGQgYmUgbGVzcyB0aGFuIDIlLjwvbGk+IA0KCQkJCQkJCQk8bGk+Ny5CSVBMIHN0YW1wIG9uIGJvdGggZW5kcyBvZiB0aGUgQWNjZXNzb3JpZXMgc2hvdWxkIG5vdCBiZSByZW1vdmVkLjwvbGk+IA0KCQkJCQkJCQk8bGk+OC5Db2xvdXIgZmFzdG5lc3Mgb24gbXVsdGkgZmliZXI6IFJ1YmJpbmcsIERyeSBDbGVhbmluZywgV2FzaGluZyA0MCAqQywgU3VuIEZhc3RuZXNzLCBMaWdodCBGYXN0bmVzcyBtdXN0IGJlIG1pbmltdW0gNC4gPC9saT4gDQoJCQkJCQkJCTxsaT45LglQaWxsaW5nIHNob3VsZCBiZSA0LTUuPC9saT4gPGxpPjEwLglUZW5zaWxlIFN0cmVuZ3RoIDE1IGtnLCBUZWFyIHN0cmVuZ3RoIDEwMDAgR00gYW5kIFNlYW0gU2xpcHBhZ2UgOGtn" />
+<input type="hidden" name="__VIEWSTATE8" id="__VIEWSTATE8" value="LjwvbGk+IA0KCQkJCQkJCTwvdWw+IA0KCQkJCQkJPC91bD4gDQoJCQkJCTwvbGk+IA0KCQkJCTwvdWw+IA0KCQkJPC9kaXY+DQoJCQlkAlsPD2QWAh4Fc3R5bGUFDGRpc3BsYXk6bm9uZWQCZQ8PFgIfB2hkZBgGBQpndnF0eXJhbmdlDzwrAAoBCAIBZAUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgIFFmNoa0F1dGhvcml6ZWRTaWduYXRvcnkFEWNoa3BhcnR5c2lnbmF0dXJlBRJncmRmYWJyaWNwdXJjaGFzZWQPPCsACgEIAgFkBQtncmRxdHlyYW5nZQ88KwAKAQgCAWQFDmdyZGhpc3RvcnlzZW5kD2dkBRRncmRSZWNlaXZlUXR5SGlzdG9yeQ88KwAKAQgCAWQv6SGAp4LjfG3Q0lIVCwbCATaFvg==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="EBFCFB8A" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWVAKM+OJBAofw8p8MAvz5+pcGAviUzrINAuSBy+oNAofQpPoDApzC4MIBAoqYh+QJAvXk9d0LApeqn5UDAtHXsvkNAoCX1MALAsHk08sMArLG+5EIAovukcgPAt6OsNUGAqr0qZYEAqb0mZYEAqb0nZYEAtPykYIBAuK+/0ICpvSZlgQCpvSdlgQC0/KRggEC4r7/QgL/6dHHCgLOnvH9AwLQ3prLAQKDteKqAwKPta6pAwKOta6pAwKNta6pAwKPte6qAwKOtcqqAwKOtY6pAwKOtYKpAwKNte6qAwKNteKqAwKmo4z0DALilLWvAQL+leupAwLVy6vzDAKu2K/aDwLkm/7AAwKIkPWRBAKLkPWRBAKKkPWRBAL58K3LDQKXqonmDAKQw5YtAqyi2dgDAvehh8wPAvahh8wPAvjOraIDAuXwm+IGAuvS8sEBArGI3fwJAtCAhH0Cgq/t/woC1ZntjgQC9Z/nrwQCnZiLlQUC1pntjgQC9J/nrwQCzNyx1QYC15ntjgQC85/nrwQC58XPagLYme2OBALyn+evBAKWivaqAgLRme2OBALxn+evBAKx85PADALSme2OBALwn+evBALgt7qADgLTme2OBALvn+evBAL7oNiVCALUme2OBALun+evBALRuZHHAQKMqZ/MCIn9V0+LDhYCrNzzSoiaWTzX3WRZ" />
+    <script src="../../js/jquery-1.11.0.min.js" type="text/javascript"></script>
+    <script src="../../js/jquery-1.9.0-jquery.min.js" type="text/javascript"></script> 
+    <script src="../../js/jqueryui-1.9.1-jquery-ui.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../../js/service.min.js"></script>
+    <script src="../../js/jquery-1.11.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../../js/form.js"></script>
+
+    <input type="hidden" name="hdintialsuppliercode" id="hdintialsuppliercode" />
+    <input type="hidden" name="hdnstorepodate" id="hdnstorepodate" />
+    <input type="hidden" name="hdnstoresupplierid" id="hdnstoresupplierid" />
+    <input type="hidden" name="hdnstoreetadate" id="hdnstoreetadate" />
+    <input type="hidden" name="hdnstoresendqty" id="hdnstoresendqty" />
+    <input type="hidden" name="hdnstorereceivedqty" id="hdnstorereceivedqty" value="1" />
+    <input type="hidden" name="hdncurrentstage" id="hdncurrentstage" />
+    <input type="hidden" name="hdnstoreunitsid" id="hdnstoreunitsid" />
+    <input type="hidden" name="hdnstorerate" id="hdnstorerate" />
+    <input type="hidden" name="hdnstoretotalamount" id="hdnstoretotalamount" />
+    <input type="hidden" name="hdntxtdates" id="hdntxtdates" />
+    <input type="hidden" name="hdntoqty" id="hdntoqty" />
+    <input type="hidden" name="hdnconversionvalue" id="hdnconversionvalue" value="1" />
+    <input type="hidden" name="hdnminsrv" id="hdnminsrv" />
+    <input type="hidden" name="hdnconverttounit" id="hdnconverttounit" value="3" />
+    <span id="lblgerigeshrinkage" style="display: none;"></span>
+    <span id="lblresidualshrinkage" style="display: none;">8</span>
+    <table class="purchase_order" style="margin-top: 5px; border-right-color: #999; border-left-color: #999;">
+        <thead>
+            <tr style="display: none;">
+                <th colspan="8" style="color: #fff; padding: 1px 0px; background: #39589c; font-weight: normal !important;
+                    font-size: 15px; border-color: #999">
+                    <span style="float: left; font-size: 12px; padding-left: 5px;">All <span style="color: Red;
+                        font-size: 12px;">*</span> (asterisk) mark field mandatory</span> <span style="padding-right: 20%;">
+                            Purchase Order</span>
+                    
+                </th>
+            </tr>
+            <tr>
+                <th style="display: flex;text-align: left;align-items: center;border: 0;border-right: 1px solid lightgray;padding-right: 17px;box-sizing: border-box;width: fit-content;" class="barder_top_color">
+                    <div style="padding: 0px 7px 5px">
+                        <img id="imgboutique" src="http://localhost:3241/images/boutique-logo.png" border="0" />
+                    </div>
+                    <div id="divbipladdress" style="padding-left: 10px;"><span style="font-weight: 600;font-size: 12px;color:#6b6464;">Boutique International (P) LTD</span><br/>
+<span style="font-weight: 500;font-size: 10px;color:#6b6464;line-height: 20px;">C-45-46-47 Hosiery Complex Noida, PH-II, Gautam Budh Nagar, U.P. 201305.</span>
+<br/>
+<span style="font-size: 10px;color:#808080;font-weight: 300;">GST No: <b>09AAACB4905C1Z5,</b> </span>
+<span style="font-size: 10px;color:#808080;font-weight: 300;">Tel: <b>(+91) 120 6797979,</b></span>
+<span style="font-size: 10px;color:#808080;font-weight: 300;">Fax: <b>(+91) 120 6797999,</b></span>
+<span style="font-size: 10px;color:#808080;font-weight: 300;">E-mail: <b>info@boutique.in</b></span></div>
+                </th>
+              <th style="border-left: 0px; text-align: left; border-right-color: #999; font-size: 24px; position: relative; font-weight: 400 !important; border-bottom: 0px">
+                    <span id="Order_text" style="margin-right: 80px;">Purchased Order</span>
+                </th>
+            </tr>
+        </thead>
+    </table>
+    <table class="purchase_order" style="margin-top: 0px; border-right-color: #999; border-left-color: #999;">
+        <tbody>
+            <tr style="border-bottom:1px solid #999;">
+                <td style="padding:5px 0 5px 7px;border-left-color: #999; width: 40px;">
+                    PO No:
+                </td>
+                <td>
+                    <span id="lblPoNo" style="font-weight: bold; font-size: 13px;">CIPF9</span>
+                </td>
+                <td style="text-align: right; width: 50px;">
+                    PO Date
+                </td>
+                <td style="width: 100px;">
+                    <span id="txtPoDate" class="datesfileds" onchange="Resetetagrd()" style="width: 75px;color:Black;font-weight:bold;">07 Dec 22 (Wed)</span>
+                </td>
+        
+                <td style="text-align: right;">
+                    Supplier
+                </td>
+                <td>
+                    <select name="ddlSupplierName" id="ddlSupplierName" class="spchange storedata" onchange="javascript:GetSupplierChange(); Resetetagrd()" style="margin: 2px 0px; height: 18px;
+                        display: none;">
+	<option value="-1">Select</option>
+	<option value="15">J J Fabrics ₹0 (0 Days) 07 Dec 2022</option>
+	<option selected="selected" value="16">Collection India Pvt.Ltd. ₹1 (50 Days) 07 Dec 2022</option>
+	<option value="123">BIPL FABRIC ₹1 (50 Days) 07 Dec 2022</option>
+	<option value="146">SJR EMBROIDERY ₹1 (50 Days) 07 Dec 2022</option>
+	<option value="15">J J Fabrics ₹0 (0 Days) 07 Dec 2022</option>
+	<option value="16">Collection India Pvt.Ltd. ₹1 (50 Days) 07 Dec 2022</option>
+	<option value="123">BIPL FABRIC ₹1 (50 Days) 07 Dec 2022</option>
+	<option value="146">SJR EMBROIDERY ₹1 (50 Days) 07 Dec 2022</option>
+
+</select>
+                    <span id="lblsupplier">Collection India Pvt.Ltd. ₹1 (50 Days) 07 Dec 2022</span>
+                </td>
+                <td style="text-align: right; width: 50px;">
+                    ETA Date
+                </td>
+                <td style="border-right-color: #999; width: 120px">
+                    <span id="txtETADate" class="th2 datesfileds storedata" onkeypress="return false;" style="width: 94%;color:Black;font-weight:bold;">26 Jan 23 (Thu)</span>
+                </td>
+
+            </tr>
+            <tr>
+                <th colspan="10" style="border-bottom: none; text-align: left;border-left: 1px solid #999;padding:5px;">
+                    <span style="font-size: 12px; margin-top: -7px;color:gray">Client Code:</span>
+                     <span style="font-weight: bold;font-size: 12px;">
+                        <span id="lblClintCode">RIV</span></span>
+                </th>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+	<table class="lastrow" cellspacing="0" rules="all" rules="all" border="1" id="grdfabricpurchased" width="950">
+		<tr class="HeaderClass">
+			<td align="center" rowspan="2">Fabric Quality</td><td align="center" rowspan="2" style="Width:50px;">C&C</td><td align="center" rowspan="2" style="Width:80px;">GSM</td><td align="center" rowspan="2" style="Width:80px;">Width</td><td align="center" rowspan="2" style="Width:80px;">ColorPrint</td><td align="center" rowspan="2" style="Width:100px;"><table style='width:100%;height:100%;' border='0' cellspacing='0' cellpadding='0'><tr><td class='colwidthG' style='border-left: 0;border-top: 0;border-bottom: 0;'>G.Sh.</td><td class='colwidthG' style='border:0;text-align:center'>R.Sh.</td></tr></table></td><td align="center" rowspan="2" style="Width:40px;">Fabric Type</td><td align="center" colspan="3" style="Width:80px;">Quantity</td><td align="center" colspan="2" style="Width:70px;">Finance</td>
+		</tr><tr class="HeaderClass">
+			<td align="center" style="Width:70px;">Send</td><td align="center" style="Width:70px;">Receivable</td><td align="center" style="Width:80px;">Unit</td><td align="center" style="Width:90px;">Rate</td><td align="center" style="Width:100px;">Total Amount</td>
+		</tr><tr>
+			<td class="border_left_color" width="160">
+                            <input type="hidden" name="grdfabricpurchased$ctl04$hdnremainingQty" id="grdfabricpurchased_ctl04_hdnremainingQty" value="187" />
+                            <input type="hidden" name="grdfabricpurchased$ctl04$hdnfabricQuality" id="grdfabricpurchased_ctl04_hdnfabricQuality" value="524" />
+                            <input type="hidden" name="grdfabricpurchased$ctl04$hdnSupplierMasterID" id="grdfabricpurchased_ctl04_hdnSupplierMasterID" value="16" />
+                            <span id="grdfabricpurchased_ctl04_lblFabricQuality"><b><font color="Blue">Cotton Jersey</font></b></span>
+                           
+                           
+                           <br />
+                          
+                        </td><td align="center" width="50">
+                            <span id="grdfabricpurchased_ctl04_lblcountconstraction"><font color="Gray"></font></span>
+                        </td><td align="center" width="70">
+                            <span id="grdfabricpurchased_ctl04_lblgsm" class=" color_black boldness"><font color="Gray">160</font></span>
+                        </td><td align="center" width="70">
+                            <span id="grdfabricpurchased_ctl04_lblwidth" class=" color_black boldness"><font color="Gray">60&quot in</font></span>
+                        </td><td align="center" width="70">
+                             <span id="grdfabricpurchased_ctl04_lblcolorprint"><b>Dtm Black Riv 178</b></span>
+                        </td><td class="tdpadding0" align="center" width="50"><table border='0' cellspacing='0' cellpadding='0' style='width:100%; height:100%'><tr><td class='colwidthinnr'> </td><td class='colwidthinnr residual hideresidual' style='width: 40px;text-align: center;display:none;'>8</td></tr></table></td><td align="center" width="100">
+                    <select name="grdfabricpurchased$ctl04$ddlsupplytype" id="grdfabricpurchased_ctl04_ddlsupplytype" class="storedata" style="display: none">
+				<option value="-1">Select</option>
+				<option value="1">Greige</option>
+				<option value="2">Dyed</option>
+				<option value="3">Printed</option>
+				<option selected="selected" value="10">Finished</option>
+				<option value="27">Fabric softening</option>
+				<option value="28">Width adjustment</option>
+				<option value="29">RFD</option>
+				<option value="30">Embellishment</option>
+				<option value="31">Embroidery</option>
+
+			</select>
+                    <span id="grdfabricpurchased_ctl04_lblprocesstype">Finished</span>
+                    
+                </td><td align="center" width="80">
+                    <input type="hidden" name="grdfabricpurchased$ctl04$hdnResidualshrnk" id="grdfabricpurchased_ctl04_hdnResidualshrnk" value="8" />
+                    <input type="hidden" name="grdfabricpurchased$ctl04$hdnSendQtyValidate" id="grdfabricpurchased_ctl04_hdnSendQtyValidate" />
+                    <input type="hidden" name="grdfabricpurchased$ctl04$hdngerigeshrnk" id="grdfabricpurchased_ctl04_hdngerigeshrnk" />
+                    <input type="hidden" name="grdfabricpurchased$ctl04$hdnsendqty" id="grdfabricpurchased_ctl04_hdnsendqty" />
+                    
+                    <span id="grdfabricpurchased_ctl04_txtsendQty" disabled="disabled" class="storedata" onchange="return CheckSendQty(this);" MaxLength="8" onkeypress="return isNumberKey(event)" style="width: 70px !important; text-align: center;"></span>
+                    
+                    <input type="hidden" name="grdfabricpurchased$ctl04$hdnavailablesendqty" id="grdfabricpurchased_ctl04_hdnavailablesendqty" value="187" />
+                    
+                </td><td align="center" width="70">
+                    <input type="hidden" name="grdfabricpurchased$ctl04$hdnreceivedqty" id="grdfabricpurchased_ctl04_hdnreceivedqty" value="1" />
+                    
+                    <span id="grdfabricpurchased_ctl04_txtreceivedqty" class="classfabsave storedata" onkeypress="return isNumberKey(event)" onchange="javascript:ValidateMinReceiveQty(this); GetSupplierRateChange();  Resetetagrd();" style="width: 70px !important; text-align: center;font-weight:bold;">1</span>
+                    
+                </td><td align="center" width="80">
+                    
+                    
+                    <select name="grdfabricpurchased$ctl04$ddlunits" id="grdfabricpurchased_ctl04_ddlunits" class="storedata" onchange="javascript:ConversionValueChange('UNITCHANGE');" style="display: none">
+				<option value="1" id="rMeter">Meter</option>
+				<option value="4" id="ryard">yard</option>
+				<option selected="selected" value="3" id="rkg">kg</option>
+
+			</select>
+                    <span id="grdfabricpurchased_ctl04_lblunit"><b>kg</b></span>
+                    <input type="hidden" name="grdfabricpurchased$ctl04$hdndefualtorderunit" id="grdfabricpurchased_ctl04_hdndefualtorderunit" value="3" />
+                    <input type="hidden" name="grdfabricpurchased$ctl04$hdnConvertTounit" id="grdfabricpurchased_ctl04_hdnConvertTounit" value="3" />
+                    <input type="hidden" name="grdfabricpurchased$ctl04$hdnsaveconversionvalue" id="grdfabricpurchased_ctl04_hdnsaveconversionvalue" value="1" />
+                </td><td align="center" width="80">
+                    <input type="hidden" name="grdfabricpurchased$ctl04$hdnrateSupplierQuotedRate" id="grdfabricpurchased_ctl04_hdnrateSupplierQuotedRate" value="1" />
+                    <span style='color: green; font-size: 13px;margin-right: 3px'>₹</span>
+                    <span id="grdfabricpurchased_ctl04_txtrateSupplierQuotedRate" class="storedata" onchange="javascript:GetSupplierRateChange();" onkeypress="return validateFloatKeyPress(this,event);" style="width: 49px !important;text-align: center;color: green;font-size: 13px!important;font-weight: 600;">1</span>
+                </td><td class="border_right_color" align="center" width="100">
+                    <span style="color: green; font-size: 13px; float: none; position: relative; top: 2px;
+                        margin-right: 3px;">₹</span><span id="grdfabricpurchased_ctl04_lbltotalAmount">1</span>
+                </td>
+		</tr>
+	</table>
+</div>
+    <div style="border: 1px solid #999; border: 1px solid #999; margin: 10px 0px 0px; padding: 1px 0px 5px;width:950px;">
+        <table style="width: 100%">
+            <tr>
+                <th class="hisclass" style="width: 200px; text-align: center; color: #575759">
+                    <span class="hisclass" style="font-size: 12px; font-weight: 500;">History of Revise
+                        Purchase Order</span>
+                </th>
+                <th style="text-align: right; padding-bottom: 10px; width: 60%;padding-right: 10px;font-size: 12px;color: dimgray;">
+                        <span id="rdybtnListRateType" disabled="disabled"><span disabled="disabled"><input id="rdybtnListRateType_0" type="radio" name="rdybtnListRateType" value="1" checked="checked" disabled="disabled" /><label for="rdybtnListRateType_0">Landed</label></span><span disabled="disabled"><input id="rdybtnListRateType_1" type="radio" name="rdybtnListRateType" value="2" disabled="disabled" /><label for="rdybtnListRateType_1">Ex Mill</label></span></span> 
+                        
+                        </th>
+                        
+            </tr>
+            <tr>
+                <td style="vertical-align: top; padding-left: 10px; padding-bottom: 5px;">
+                    <div>
+	<table class="table receivehis lastrow " cellspacing="0" rules="all" border="1" id="grdReceiveQtyHistory" style="width: 357px; float: right">
+		<tr>
+			<td align="center" style="background-color:#dddfe4;;color:#808080;;border:1px solid darkgray;;font-weight:bold;;">Date</td><td align="center" style="background-color:#dddfe4;;color:#808080;;border:1px solid darkgray;;font-weight:bold;;">PO Quantity</td>
+		</tr><tr>
+			<td class="txtcenter border_left_color" align="center" width="100">
+                                    <span id="grdReceiveQtyHistory_ctl03_lbldate">07 Dec 22 (Wed)</span>
+                                </td><td class="txtcenter border_right_color" align="center" width="100">
+                                    <span id="grdReceiveQtyHistory_ctl03_lblsign" style="font-size: 16px; font-weight: 900; position: relative;
+                                        top: 1px;"><font color="#8BCE18"></font></span>
+                                    <span id="grdReceiveQtyHistory_ctl03_lblpoqty"><b>1</b></span>&nbsp;
+                                    <span id="grdReceiveQtyHistory_ctl03_lnluntis"><b><font color="Gray">mtr</font></b></span>
+                                </td>
+		</tr>
+	</table>
+</div>
+
+                    
+                </td>
+                <td style="vertical-align: top;">
+                    <div>
+	<table class="supplieretadatetable table receivehis lastrow" cellspacing="0" rules="all" border="1" id="grdqtyrange" width="349" style="border-top: 0px; border-bottom: 1px bolid #999;
+                        display: none">
+		<tr align="center">
+			<th scope="col"><font face="Arial">
+                                    From Qty.
+                                    
+                                </font></th><th scope="col"><font face="Arial">
+                                    To Qty.
+                                    
+                                </font></th><th scope="col"><font face="Arial">
+                                    ETA dates
+                                </font></th><th scope="col"><font face="Arial">
+                                    Action
+                                </font></th>
+		</tr><tr>
+			<td>
+                                    <span id="grdqtyrange_ctl02_lblfromqty">1</span>
+                                </td><td>
+                                    <input type="hidden" name="grdqtyrange$ctl02$hdnrownumber" id="grdqtyrange_ctl02_hdnrownumber" value="1" />
+                                    <input type="hidden" name="grdqtyrange$ctl02$hdnsupplierpoid" id="grdqtyrange_ctl02_hdnsupplierpoid" value="695" />
+                                    <input type="hidden" name="grdqtyrange$ctl02$hdnSupplierPO_ETA_Id" id="grdqtyrange_ctl02_hdnSupplierPO_ETA_Id" value="1734" />
+                                    <span id="grdqtyrange_ctl02_lbltoqty">1</span>
+                                </td><td>
+                                    <span id="grdqtyrange_ctl02_lbldates">26 Jan 23 (Thu)</span>
+                                </td><td class="Actiont_63 border_right_color">
+                                    <a onclick="setbackviewstate();" id="grdqtyrange_ctl02_LinkButton1" alt="edit" href="javascript:__doPostBack('grdqtyrange$ctl02$LinkButton1','')"><img src="../../images/edit2.png" alt="edit" /></a>
+                                    
+                                </td>
+		</tr>
+	</table>
+</div>
+                    <div>
+	<table class="table receivehis lastrow" cellspacing="0" rules="all" DataFormatString="{0:c}" border="1" id="gvqtyrange" style="display: none">
+		<tr>
+			<th scope="col">From</th><th scope="col">To</th><th scope="col">ETA Date</th><th scope="col">Action</th>
+		</tr><tr display="none">
+			<td class="txtcenter border_left_color" width="100">
+                                    1
+                                <input type='hidden' name='fromqtyval' value='1'></td><td class="txtcenter" width="100">
+                                    1
+                                <input type='hidden' name='toqtyval' value='1'></td><td class="txtcenter border_left" width="100">
+                                    26 Jan 23 (Thu)
+                                <input type='hidden' name='Etadate' value='26 Jan 23 (Thu)'></td><td class="txtcenter border_right_color" width="100"><img name='deleteetarow' src='../../images/del-butt.png' alt=''  title='Delete' onclick='DeleteRow();return false;' /></td>
+		</tr>
+	</table>
+</div>
+                    <br />
+                    
+                    <div id="divrange"><table border='1' class='receivehis tableCenter' cellpadding='0' cellspacing='0' style='margin-top: -13px; border-top: 0px; width: 352px;float:right;margin-right: 0px;text-align:center;'><thead style='background-color: #dddfe4;color:gray;border: 1px solid darkgray;'><tr><th style='width: 91px;border: 1px solid darkgray;padding: 3px;'>From (kg) </th><th style='width: 91px;border: 1px solid darkgray;padding: 3px;'>To (kg) </th><th style='width: 149px;border: 1px solid darkgray;padding: 3px;'>Date</th></tr></thead><tr class='even'><td style='Font-Weight:bold;'>1</td><td style='Font-Weight:bold;'>1</td><td>26 Jan 23 (Thu)</td></tr></table></div>
+                    <table border="1" class="receivehis tableCenter table receivehis lastrow" cellpadding="0"
+                        cellspacing="0" style="margin-top: -13px; width: 352px; float: right; margin-right: 0px;
+                        display: none;">
+                        <thead>
+                            <tr>
+                                <th style="width: 91px;">
+                                    From
+                                    <span id="lblunitto">kg</span>
+                                </th>
+                                <th style="width: 91px;">
+                                    To
+                                    <span id="lblunitfrom">kg</span>
+                                </th>
+                                <th style="width: 149px;">
+                                    Date
+                                </th>
+                                <th style="width: 90px;">
+                                    Action
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="tblbreakedown">
+                            <tr id="trbreaek0" style="">
+	<td style="width: 91px; border: 1px solid #999;font-weight:bold;">
+                                    <span id="lblfromqty0">1</span>
+                                    <input name="txtfromqty0" type="text" value="1" readonly="readonly" id="txtfromqty0" class="noonly" style="display: none" />
+                                </td>
+	<td style="width: 91px; border: 1px solid #999">
+                                    <span id="lbltoqty0">1</span>
+                                    <input name="txttoqty0" type="text" value="1" id="txttoqty0" onchange="checkqtys(this,0)" class="noonly" style="display: none" />
+                                </td>
+	<td style="width: 149px; border: 1px solid #999">
+                                    <span id="lbletabreakedate0">26 Jan 23 (Thu)</span>
+                                    <input name="txtetabreakedate0" type="text" value="26 Jan 23 (Thu)" id="txtetabreakedate0" class="etadate datesfileds" onchange="CheckEtadates2(0)" style="display: none" />
+                                </td>
+	<td style="width: 90px; border: 1px solid #999">
+                                    <img id="edit0" onclick="Edit('EDIT',0)" src="../../images/edit2.png" style="" alt="edit" />
+                                    <img id="editupdate0" onclick="Edit('UPDATE',0)" alt="UPDATE" src="../../images/update-new.png"
+                                        style="display: none; cursor: pointer;" />
+                                    <img id="editcancel0" onclick="Edit('CANCELEDIT',0)" alt="CANCELEDIT" src="../../images/Cancel1.png"
+                                        style="position: relative; top: 2px; width: 22px; cursor: pointer; display: none" />
+                                </td>
+	<td style="width: 90px; display: none">
+                                </td>
+</tr>
+
+                            <tr id="trbreaek1" style="display: none">
+	<td style="width: 90px; border: 1px solid #999">
+                                    <span id="lblfromqty1"></span>
+                                    <input name="txtfromqty1" type="text" readonly="readonly" id="txtfromqty1" class="noonly" style="display: none" />
+                                </td>
+	<td style="width: 90px; border: 1px solid #999">
+                                    <span id="lbltoqty1"></span>
+                                    <input name="txttoqty1" type="text" id="txttoqty1" onchange="checkqtys(this,1)" class="noonly" style="display: none" />
+                                </td>
+	<td style="width: 150px; border: 1px solid #999">
+                                    <span id="lbletabreakedate1"></span>
+                                    <input name="txtetabreakedate1" type="text" id="txtetabreakedate1" class="etadate datesfileds" onchange="CheckEtadates2(1)" style="display: none" />
+                                </td>
+	<td style="width: 90px; border: 1px solid #999">
+                                    <img id="edit1" onclick="Edit('EDIT',1)" src="../../images/edit2.png" style="" alt="edit" />
+                                    <img id="editupdate1" onclick="Edit('UPDATE',1)" alt="UPDATE" src="../../images/update-new.png"
+                                        style="display: none" />
+                                    <img id="editcancel1" onclick="Edit('CANCELEDIT',1)" alt="CANCELEDIT" src="../../images/Cancel1.png"
+                                        style="position: relative; top: 2px; width: 22px; display: none" />
+                                    <img id="editdelete1" onclick="Edit('DELETE',1)" alt="DELETE" src="../../images/del-butt.png" />
+                                </td>
+	<td style="width: 90px; display: none">
+                                </td>
+</tr>
+
+                            <tr id="trbreaek2" style="display: none">
+	<td style="width: 90px; border: 1px solid #999">
+                                    <span id="lblfromqty2"></span>
+                                    <input name="txtfromqty2" type="text" readonly="readonly" id="txtfromqty2" class="noonly" style="display: none" />
+                                </td>
+	<td style="width: 90px; border: 1px solid #999">
+                                    <span id="lbltoqty2"></span>
+                                    <input name="txttoqty2" type="text" id="txttoqty2" onchange="checkqtys(this,2)" class="noonly" style="display: none" />
+                                </td>
+	<td style="width: 150px; border: 1px solid #999">
+                                    <span id="lbletabreakedate2"></span>
+                                    <input name="txtetabreakedate2" type="text" id="txtetabreakedate2" class="etadate datesfileds" onchange="CheckEtadates2(2)" style="display: none" />
+                                </td>
+	<td style="width: 90px; border: 1px solid #999">
+                                    <img id="edit2" onclick="Edit('EDIT',2)" src="../../images/edit2.png" style="" alt="edit" />
+                                    <img id="editupdate2" onclick="Edit('UPDATE',2)" src="../../images/update-new.png"
+                                        style="display: none" />
+                                    <img id="editcancel2" onclick="Edit('CANCELEDIT',2)" src="../../images/Cancel1.png"
+                                        style="position: relative; top: 2px; width: 22px; display: none" />
+                                    <img id="editdelete2" onclick="Edit('DELETE',2)" src="../../images/del-butt.png" />
+                                </td>
+	<td style="width: 90px; display: none">
+                                </td>
+</tr>
+
+                            <tr id="trbreaek3" style="display: none">
+	<td style="width: 90px; border: 1px solid #999">
+                                    <span id="lblfromqty3"></span>
+                                    <input name="txtfromqty3" type="text" readonly="readonly" id="txtfromqty3" class="noonly" style="display: none" />
+                                </td>
+	<td style="width: 90px; border: 1px solid #999">
+                                    <span id="lbltoqty3"></span>
+                                    <input name="txttoqty3" type="text" id="txttoqty3" onchange="checkqtys(this,3)" class="noonly" style="display: none" />
+                                </td>
+	<td style="width: 150px; border: 1px solid #999">
+                                    <span id="lbletabreakedate3"></span>
+                                    <input name="txtetabreakedate3" type="text" id="txtetabreakedate3" class="etadate datesfileds" onchange="CheckEtadates2(3)" style="display: none" />
+                                </td>
+	<td style="width: 90px; border: 1px solid #999">
+                                    <img id="edit3" onclick="Edit('EDIT',3)" src="../../images/edit2.png" style="" alt="edit" />
+                                    <img id="editupdate3" onclick="Edit('UPDATE',3)" src="../../images/update-new.png"
+                                        style="display: none" />
+                                    <img id="editcancel3" onclick="Edit('CANCELEDIT',3)" src="../../images/Cancel1.png"
+                                        style="position: relative; top: 2px; width: 22px; display: none" />
+                                    <img id="editdelete3" onclick="Edit('DELETE',3)" src="../../images/del-butt.png" />
+                                </td>
+	<td style="width: 90px; display: none">
+                                </td>
+</tr>
+
+                            <tr id="trbreaek4" style="display: none">
+	<td style="width: 90px; border: 1px solid #999">
+                                    <span id="lblfromqty4"></span>
+                                    <input name="txtfromqty4" type="text" readonly="readonly" id="txtfromqty4" class="noonly" style="display: none" />
+                                </td>
+	<td style="width: 90px; border: 1px solid #999">
+                                    <span id="lbltoqty4"></span>
+                                    <input name="txttoqty4" type="text" id="txttoqty4" onchange="checkqtys(this,4)" class="noonly" style="display: none" />
+                                </td>
+	<td style="width: 150px; border: 1px solid #999">
+                                    <span id="lbletabreakedate4"></span>
+                                    <input name="txtetabreakedate4" type="text" id="txtetabreakedate4" class="etadate datesfileds" onchange="CheckEtadates2(4)" style="display: none" />
+                                </td>
+	<td style="width: 90px; border: 1px solid #999">
+                                    <img id="edit4" onclick="Edit('EDIT',4)" src="../../images/edit2.png" style="" alt="edit" />
+                                    <img id="editupdate4" onclick="Edit('UPDATE',4)" src="../../images/update-new.png"
+                                        style="display: none" />
+                                    <img id="editcancel4" onclick="Edit('CANCELEDIT',4)" src="../../images/Cancel1.png"
+                                        style="position: relative; top: 2px; width: 22px; display: none" />
+                                    <img id="editdelete4" onclick="Edit('DELETE',4)" src="../../images/del-butt.png" />
+                                </td>
+	<td style="width: 90px; display: none">
+                                </td>
+</tr>
+
+                            <tr id="trbreaek5" style="display: none">
+	<td style="width: 90px; border: 1px solid #999">
+                                    <span id="lblfromqty5"></span>
+                                    <input name="txtfromqty5" type="text" readonly="readonly" id="txtfromqty5" class="noonly" style="display: none" />
+                                </td>
+	<td style="width: 90px; border: 1px solid #999">
+                                    <span id="lbltoqty5"></span>
+                                    <input name="txttoqty5" type="text" id="txttoqty5" onchange="checkqtys(this,5)" class="noonly" style="display: none" />
+                                </td>
+	<td style="width: 150px; border: 1px solid #999">
+                                    <span id="lbletabreakedate5"></span>
+                                    <input name="txtetabreakedate5" type="text" id="txtetabreakedate5" class="etadate datesfileds" onchange="CheckEtadates2(5)" style="display: none" />
+                                </td>
+	<td style="width: 90px; border: 1px solid #999">
+                                    <img id="edit5" onclick="Edit('EDIT',5)" src="../../images/edit2.png" style="" alt="edit" />
+                                    <img id="editupdate5" onclick="Edit('UPDATE',5)" src="../../images/update-new.png"
+                                        style="display: none" />
+                                    <img id="editcancel5" onclick="Edit('CANCELEDIT',5)" src="../../images/Cancel1.png"
+                                        style="position: relative; top: 2px; width: 22px; display: none" />
+                                    <img id="editdelete5" onclick="Edit('DELETE',5)" src="../../images/del-butt.png" />
+                                </td>
+	<td style="width: 90px; display: none">
+                                </td>
+</tr>
+
+                            <tr id="trbreaek6" style="display: none">
+	<td style="width: 90px; border: 1px solid #999">
+                                    <span id="lblfromqty6"></span>
+                                    <input name="txtfromqty6" type="text" readonly="readonly" id="txtfromqty6" class="noonly" style="display: none" />
+                                </td>
+	<td style="width: 90px; border: 1px solid #999">
+                                    <span id="lbltoqty6"></span>
+                                    <input name="txttoqty6" type="text" id="txttoqty6" onchange="checkqtys(this,6)" class="noonly" style="display: none" />
+                                </td>
+	<td style="width: 150px; border: 1px solid #999">
+                                    <span id="lbletabreakedate6"></span>
+                                    <input name="txtetabreakedate6" type="text" id="txtetabreakedate6" class="etadate datesfileds" onchange="CheckEtadates2(6)" style="display: none" />
+                                </td>
+	<td style="width: 90px; border: 1px solid #999">
+                                    <img id="edit6" onclick="Edit('EDIT',6)" src="../../images/edit2.png" style="" alt="edit" />
+                                    <img id="editupdate6" onclick="Edit('UPDATE',6)" src="../../images/update-new.png"
+                                        style="display: none" />
+                                    <img id="editcancel6" onclick="Edit('CANCELEDIT',6)" src="../../images/Cancel1.png"
+                                        style="position: relative; top: 2px; width: 22px; display: none" />
+                                    <img id="editdelete6" onclick="Edit('DELETE',6)" src="../../images/del-butt.png" />
+                                </td>
+	<td style="width: 90px; display: none">
+                                </td>
+</tr>
+
+                            <tr id="trbreaek7" style="display: none">
+	<td style="width: 90px; border: 1px solid #999">
+                                    <span id="lblfromqty7"></span>
+                                    <input name="txtfromqty7" type="text" readonly="readonly" id="txtfromqty7" class="noonly" style="display: none" />
+                                </td>
+	<td style="width: 90px; border: 1px solid #999">
+                                    <span id="lbltoqty7"></span>
+                                    <input name="txttoqty7" type="text" id="txttoqty7" onchange="checkqtys(this,7)" class="noonly" style="display: none" />
+                                </td>
+	<td style="width: 150px; border: 1px solid #999">
+                                    <span id="lbletabreakedate7"></span>
+                                    <input name="txtetabreakedate7" type="text" id="txtetabreakedate7" class="etadate datesfileds" onchange="CheckEtadates2(7)" style="display: none" />
+                                </td>
+	<td style="width: 90px; border: 1px solid #999">
+                                    <img id="edit7" onclick="Edit('EDIT',7)" src="../../images/edit2.png" style="" alt="edit" />
+                                    <img id="editupdate7" onclick="Edit('UPDATE',7)" src="../../images/update-new.png"
+                                        style="display: none" />
+                                    <img id="editcancel7" onclick="Edit('CANCELEDIT',7)" src="../../images/Cancel1.png"
+                                        style="position: relative; top: 2px; width: 22px; display: none" />
+                                    <img id="editdelete7" onclick="Edit('DELETE',7)" src="../../images/del-butt.png" />
+                                </td>
+	<td style="width: 90px; display: none">
+                                </td>
+</tr>
+
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <br />
+    <label style="font-weight: normal !important;font-size:11px;"> Remarks:</label>
+    <span id="lblRemarks" style="font-weight: normal !important;font-size:11px;"></span>
+
+    <div id="divguidline" style="width:950px;">
+			<div style="max-width: 100%;width: 97.2%; border: 1px solid #d6cccc; padding: 10px 0px;clear: both;color:grey;font-size:11px"> 
+				<ul style="list-style-type: none; margin: 0;padding: 3px 4px; line-height: 17px"> 
+					<li> 
+						<ul style="list-style-type: none; margin: 0;padding: 0px 2px;"> 
+
+							<li style="border-bottom: 0px solid #999999; width: 20.5%;padding:2px 0px 2px;color: #6b6464;margin-left:0px;"> 
+								<span>General Instructions :-</span>
+							</li> 
+
+							<ul style="margin-left:10px;list-style-type: none; padding: 0px 2px;">
+								<li>1.All bills must state the Purchase Order number. Missing PO numbers on bills will nullify the bill.</li>							 
+								<li>2.Good must be 100% checked on tables by vendor. It is complete responsibility of the supplier to dispatch only acceptable goods under 4 point AQL. If goods fail 5% check at BIPL or arrives without 100% checking reports, BIPL reserves the right to return goods to vendor or charge them damages and checking charges. </li>
+								<li>3.Any quality issues related base quality parameters will lead to discounts or cancellations by BIPL.</li> 
+								<li>4.Rejected goods must be collected within a week, else BIPL will not be responsible for the returnable goods.</li> 
+								<li>5.All disputes will be subject to Delhi NCR jurisdiction.</li> </ul> </ul> <ul  style="list-style-type: none; margin: 0;padding: 0px 2px;"> 
+								<li style="border-bottom: 0px solid #999999; width: 20.5%;padding:2px 0px 2px;color: #6b6464"> <span>Processed Instructions :-</span></li>
+							</ul> 
+							
+							<ul style="margin-left:10px;list-style-type: none;padding: 0px 2px;"> 
+								<li>1.Matching to be on D65</li> <li>2.Finishing should be silicon finished in overfeeding. Soft Handfeel. All polyester and Nylon antistatic finish is a must.</li> 
+								<li>3.Finishing shrinkage/Dimensional stability to steam to be +/-2%.</li>
+								<li>4.Banned chemicals: Azo, PCP, PH Value -6, heavy metals.</li> 
+								<li>5.Bowing less than 3 inches will be acceptable.</li> 
+								<li>6.After wash shrinkage should be less than 2%.</li> 
+								<li>7.BIPL stamp on both ends of the Accessories should not be removed.</li> 
+								<li>8.Colour fastness on multi fiber: Rubbing, Dry Cleaning, Washing 40 *C, Sun Fastness, Light Fastness must be minimum 4. </li> 
+								<li>9.	Pilling should be 4-5.</li> <li>10.	Tensile Strength 15 kg, Tear strength 1000 GM and Seam Slippage 8kg.</li> 
+							</ul> 
+						</ul> 
+					</li> 
+				</ul> 
+			</div>
+			</div>
+
+    <div style="padding: 0px 0px 5px;font-size: 11px;width: 920px;">
+        <ul style="list-style: none;margin: 0;padding: 0;">
+            <li style="padding: 10px 18px 5px">
+              <span style="width: 80%; display: inline-block;color: #000;font-size:10px">
+                 <b>Boutique International Pvt. Ltd.</b>
+                   </span>
+                   <span style="color: #000; float: right; text-align: right; padding-right: 5px;font-size: 10px;">
+                     <b> Accepted by</b>
+                   </span>
+            </li>
+            <li style="padding: 10px 18px 5px;">
+            <span style="width: 120px;display: inline-block; text-align: center;line-height: 20px;color: gray;font-size: 10px;">
+                <div class="AuthoriImage" style="padding-left: 7px;">
+                    <img id="imgAuthorizedSignatory" class="disabledCheckboxes" src="" border="0" style="display:none" /><br />
+                    <span id="lblAuthorizedName" style="float: left; position: relative;left: 17%;"></span><br />
+                    <span id="lblAuthorizedSignatorydate" class="AuthorizedSignatorydate"></span>
+                </div>
+                <br />
+                <input id="chkAuthorizedSignatory" type="checkbox" name="chkAuthorizedSignatory" />
+                <span id="spanAuthorizedSig" style="position: relative; right: 0%; display: inherit;">
+                    (Authorized Signature)</span>
+               </span> 
+               <span style="float: right;text-align: center;line-height: 20px;color: gray; margin-right: -25px;">
+                        <div class="AuthoriImage" style="padding-right: 0px;">
+                            <br />
+                            <span id="lblPartyName" class="AuthorizedSignatorydate1"></span><br />
+                            <span id="lblimgpartysingature" class="AuthorizedSignatorydate1"></span>
+                        </div>
+                        <br />
+                        <span class="RightCheckBox"><input id="chkpartysignature" type="checkbox" name="chkpartysignature" /></span>
+                        <span id="PositonRightM" style="position: relative; right: 6%;">(Party Signature)</span>
+              </span>
+            </li>
+        </ul>
+    </div>
+        <div class="btnClose printHideButton" style="background: #13a747 none repeat scroll 0 0 !important;border: medium none !important;color: #fff;font-size: 12px;font-weight: bold;padding: 3px 5px;cursor: pointer; border-radius: 4px;width: 60px;text-align: center;letter-spacing: 1px;display: flow-root;" onclick="javascript:self.parent.Shadowbox.close();"> Close</div>
+    
+    </form>
+</body>
+</html>

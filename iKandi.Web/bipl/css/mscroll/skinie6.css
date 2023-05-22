@@ -1,0 +1,102 @@
+.jcarousel-scope {
+	width: 544px;
+	padding-top: 0px;
+	padding-right: 18px;
+	padding-bottom: 0px;
+	padding-left: 18px;
+	height: 221px;
+	overflow:hidden;
+ 
+}
+
+.jcarousel-list {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.jcarousel-list a {
+ color: #00FFFF; 
+ }
+ .jcarousel-list img {
+ border: 0px;
+}
+.jcarousel-list li {   
+	width: 180px;
+	height: 110px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+}
+
+.jcarousel-list li :hover {
+	width: 180px;
+	height: 110px;
+}
+.jcarousel-list li {
+    margin-left: 1px;
+	margin-bottom: 1px;	
+}
+
+.jcarousel-next, .jcarousel-next a {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 18px;
+	height: 221px;
+	cursor: pointer;
+	background: transparent url(next-horizontal.gif) repeat-y;
+}
+
+.jcarousel-next:hover, .jcarousel-next a:hover {
+    background-position: -18px 0;
+}
+
+.jcarousel-next:active, .jcarousel-next a:active {
+    background-position: -36px 0;
+}
+
+.jcarousel-next-disabled, .jcarousel-next-disabled:hover, .jcarousel-next-disabled:active {
+    cursor: default;
+    background-position: -54px 0;
+}
+.jcarousel-next-disabled a, .jcarousel-next-disabled a:hover, .jcarousel-next-disabled a:active {
+    cursor: default;
+    background-position: -54px 0;
+}
+
+.jcarousel-prev, .jcarousel-prev a {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 18px;
+    height: 221px;
+    cursor: pointer;
+    background: transparent url(prev-horizontal.gif) repeat-y;
+}
+
+.jcarousel-prev:hover, .jcarousel-prev a:hover {
+    background-position: -18px 0;
+}
+
+.jcarousel-prev:active, .jcarousel-prev a:active {
+    background-position: -36px 0;
+}
+
+.jcarousel-prev-disabled, .jcarousel-prev-disabled:hover, .jcarousel-prev-disabled:active {
+    cursor: default;
+    background-position: -54px 0;
+
+}
+.jcarousel-prev-disabled a, .jcarousel-prev-disabled a:hover, .jcarousel-prev-disabled a:active {
+    cursor: default;
+    background-position: -54px 0;
+
+}
+#opacityit img{
+filter: alpha(opacity=80);
+opacity: 0.8;
+}
+#opacityit:hover img{
+filter: alpha(opacity=100);
+opacity: 1;
+}

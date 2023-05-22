@@ -1,0 +1,173 @@
+﻿
+table {
+    font-family: arial;
+    border-color: gray;
+    border-collapse: separate !important;
+    border-spacing: 0;
+}
+
+.HeaderClass td:first-child {
+   padding: 8px 0 0 8px!important;
+   box-sizing: border-box;
+}
+
+table td {
+    border-top: 0px solid #dbd8d8;
+    border-right: 1px solid #dbd8d8;
+    font-size: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    color: gray;
+    border-color: #d1cfcf;
+    min-height: 25px;
+    border-left: 0px;
+    font-family: arial;
+}
+
+table .HeaderClass1 td {
+    position: sticky;
+    background-color: #dddfe4;
+    border: 1px solid #999;
+    border-bottom: 0px;
+    position: -webkit-sticky;
+    position: sticky;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 500;
+    height: 21px;
+    color: #575759;
+    -moz-top: 151px;
+    top: 148px;
+    font-family: arial;
+}
+
+table .HeaderClass td {
+    position: sticky;
+    background-color: #dddfe4;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+    position: -webkit-sticky;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 500;
+    color: #575759;
+    top: 53px;
+    min-height: 25px;
+    z-index: 7;
+    font-family: arial;
+}
+table .HeaderClass td:first-child {
+    border-left: 1px solid #999;
+}
+
+table th {
+    position: sticky;
+    background-color: #dddfe4;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+    position: -webkit-sticky;
+    font-size: 10px;
+    padding: 5px 0px;
+    text-align: center;
+    font-weight: 500;
+    color: #575759;
+    top: 52px;
+    z-index: 8;
+    border-left: 0px;
+    font-family: arial;
+}
+table th:first-child {
+    border-left: 1px solid #999;
+}
+table td:last-child {
+    border-right-color: #999;
+    border-right: 1px solid #999;
+}
+
+table tr:last-child > td {
+    border-bottom-color: #999;
+}
+table td .InnerTable tr:last-child > td {
+    border-top: 1px solid #dedede;
+    border-right-color: #dedede;
+}
+table td .InnerTable tr:first-child > td {
+    border-top: 0px solid #dedede;
+    border-right-color: #dedede;
+}
+table td .InnerTable td {
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+table td.FabFirstLeftbor {
+    border-left-color: #999;
+    line-height: 12px;
+}
+.InnerTable td {
+    height: 24px;
+}
+
+td.borderLeftBottom {
+    border: 0px;
+    border-left: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+td.borderBottom {
+    border: 0px;
+    border-bottom: 1px solid #999;
+}
+td.borderRightBottom {
+    border: 0px;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+table td table td.process {
+    border: 0px;
+}
+table td table td {
+    border: 0px;
+}
+.headerSticky {
+    color: #fff;
+    background: #39589c;
+    text-align: center;
+    margin: 0px 0px;
+    font-weight: normal;
+    font-size: 15px;
+    position: sticky;
+    top: 0px;
+    min-width: 1340px;
+    width: 100%;
+    clear: both;
+    z-index: 999;
+}
+.SearchBoxDiv {
+    width: 32%;
+    float: right;
+    text-align: right;
+    background: #fff;
+    padding-top: 3px;
+    position: sticky;
+    top: 23px;
+    height: 27px;
+    z-index: 6;
+}
+.SearchBoxDiv .SearchBox {
+    text-align: right;
+    margin-right:4px;
+}
+/*  .backColor1
+  {
+      background:#f3f0f2;
+   }
+    .backColor2
+  {
+      background:#f3f3f3;
+   }
+    .backColor3
+  {
+      background:#fbfafa;
+   }*/

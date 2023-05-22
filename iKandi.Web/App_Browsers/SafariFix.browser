@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<browsers>
+  <browser id="Safari6xxFix" parentID="Safari">
+    <identification>
+      <capability name="appleWebTechnologyVersion" match="60\d" />
+    </identification>
+    <capture>
+    </capture>
+    <capabilities>
+      <capability name="ecmascriptversion" value="1.4" />
+      <capability name="w3cdomversion" value="1.0" />
+      <capability name="supportsCallback" value="true" />
+    </capabilities>
+    <controlAdapters>
+      <adapter controlType="System.Web.UI.WebControls.Menu"
+              adapterType="" />
+    </controlAdapters>
+  </browser>
+</browsers>

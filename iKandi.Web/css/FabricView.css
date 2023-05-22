@@ -1,0 +1,762 @@
+﻿
+body {
+    background: #fff none repeat scroll 0 0;
+    font-family: arial !important;
+}
+
+table {
+    font-family: arial;
+    border-color: gray;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.topsupplier td {
+    text-align: center;
+    border: 1px solid #999;
+    font-weight: 500;
+} 
+
+table td {
+    font-size: 10px;
+    text-align: center;
+    border-color: #e2dddd99;
+    text-transform: capitalize;
+    color: #000;
+    padding: 0px 0px;
+    font-family: arial;
+    height: 20px;
+}
+/* dinesh */
+.Quantity_Breakdown_column tr td
+{
+    
+ }
+ 
+    /* dinesh */
+
+.AccessToltip {
+    position: relative;
+    display: inline-block;
+}
+
+    .AccessToltip .TooltipTxt {
+        visibility: hidden;
+        width: 200px;
+        background-color: #767676;
+        color: #fff;
+        text-align: left;
+        border-radius: 6px;
+        padding: 5px 5px;
+        position: absolute;
+        z-index: 8;
+        bottom: 150%;
+        left: 0%;
+        margin-left: -60px;
+        line-height: 15px;
+    }
+
+        .AccessToltip .TooltipTxt::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 35%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: black transparent transparent transparent;
+        }
+
+    .AccessToltip:hover .TooltipTxt {
+        visibility: visible;
+    }
+
+#ctl00_cph_main_content_updatepnl {
+    width: 1313px;
+}
+
+.textLeft {
+    text-align: left !important;
+    padding-left: 5px!important;
+}
+
+.per {
+    color: blue;
+}
+
+.gray {
+    color: gray;
+}
+
+h2 .row-fir th {
+    font-weight: bold;
+    font-size: 11px;
+}
+
+table td table td {
+    border-color: #e2dddd99;
+    padding-left: 2px;
+}
+
+
+.SUPPLY-MANA td input {
+    width: 35%;
+}
+
+.imageField {
+    background-image: url(submit.jpg);
+    height: 28px;
+    width: 105px;
+}
+
+.pad {
+    text-align: left;
+    padding-left: 25px;
+}
+
+.ths {
+    background: #3b5998;
+    font-weight: normal;
+    color: #fff;
+    font-family: arial;
+    font-size: 10px;
+    padding: 5px 0px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+.backcolorstages {
+    background: #fdfd96e0;
+}
+
+.PurchaseOrder {
+    width: 1140px !important;
+    left: 50%!important;
+    transform: translate(-50%, 10px);
+}
+
+input[type="text"] {
+    border-color: White;
+    width: 34%;
+    border: 1px solid #e2dddd99 !important;
+    border-radius: 2px;
+    height: 13px !important;
+    color: Blue !important;
+    font-size: 10px !important;
+}
+
+.float_left {
+    float: left;
+    padding-left: 3px;
+}
+
+.float_right {
+    float: right;
+    padding-ight: 3px;
+}
+
+.color_black {
+    color: Black;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 308px; /* Full width */
+}
+
+    /* Links inside the navbar */
+    .navbar a {
+        width: 73px;
+        text-decoration: none;
+        border: 1px solid #fff;
+        display: inline-table;
+        height: 30px;
+        line-height: 30px;
+        color: #fff;
+    }
+
+.borderDy {
+    border: 0px !important;
+}
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.abc.tab {
+    overflow: hidden;
+    border: 0px solid #ccc;
+    background-color: #fff;
+    font-family: Arial !important;
+    float: left;
+    width: 63%;
+    position: sticky;
+    top: 23px;
+    padding-top: 5px;
+    z-index: 7;
+}
+
+/* Style the buttons inside the tab */
+.tab a {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer; /* padding: 14px 16px; */
+    transition: 0.3s;
+    font-size: 13px;
+    border: 1px solid #999;
+    min-width: 100px;
+    display: inline-block;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    margin-right: 2px;
+    font-family: arial !important;
+    padding: 4px 2px;
+    border-bottom: 0px;
+    text-decoration: none;
+}
+
+    /* Change background color of buttons on hover */
+    .tab a:hover {
+        background-color: #ddd;
+    }
+
+    /* Create an active/current tablink class */
+    .tab a.active {
+        background-color: #ccc;
+    }
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.activeback {
+    background: green !important;
+    color: #f8f8f8;
+}
+
+.navbar tab {
+    border: 1px solid #fff;
+}
+
+.maincontentcontainer {
+    width: 1100px;
+    margin: 20px 0 0px;
+}
+
+.headerSticky {
+    width: 100% !important;
+}
+
+td.GriegeStageRe {
+    border-left: 1px solid #999;
+}
+
+#data tbody > tr:last-child > td {
+    border-bottom: 0 !important;
+}
+
+.btnrpo {
+   cursor: pointer;
+    background-color: blue;
+    color: #f5f5f5 !important;
+    width: 30px;
+    font-size: 9px;
+    border-radius: 20px;
+    padding: 2px 2px;
+    float: right;
+    margin: -1px 2px;
+    text-align: center;
+}
+
+.btnrepo {
+    cursor: pointer;
+    background-color: #FFA500;
+    color: #000 !important;
+    width: 30px;
+    font-size: 9px;
+    border-radius: 20px;
+    padding: 2px 2px;
+    float: left;
+    margin: 2px 2px;
+}
+
+p:nth-last-child(2) {
+    background: red;
+}
+
+td.process:last-child {
+    height: 24px;
+}
+
+.HideRaisebtn {
+    display: none !important;
+}
+
+.divspplier {
+    position: fixed;
+    top: 44%;
+    left: 43%; /* width: 30em; */
+    min-height: 200px;
+    margin-top: -9em;
+    margin-left: -15em;
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+    z-index: 2;
+}
+
+.topsupplier {
+    border-collapse: collapse !important;
+}
+
+    .topsupplier th {
+        background: #dddfe4;
+        color: #575759;
+        text-align: center;
+        border: 1px solid #999;
+        font-size: 10px;
+        padding: 3px 0px;
+    }
+
+    .topsupplier td {
+        text-align: center;
+        border: 1px solid #999;
+        font-weight: bold;
+    }
+
+    .topsupplier th:first-child {
+        border-left: 0px;
+    }
+
+    .topsupplier th:last-child {
+        border-right: 0px;
+    }
+
+    .topsupplier td:first-child {
+        border-left: 0px;
+    }
+
+    .topsupplier td:last-child {
+        border-right: 0px;
+    }
+
+table.greigegrdbor td table.Griegetable td:first-child {
+    text-align: left;
+}
+
+table.greigegrdbor td table.Griegetable td:last-child {
+    text-align: right;
+}
+
+td[colspan="17"] {
+    border-left: 1px solid #999 !important;
+    padding: 0px !important;
+}
+
+td[colspan="14"] {
+    border-left: 1px solid #999 !important;
+    padding: 0px !important;
+}
+
+td[colspan="15"] {
+    border-left: 1px solid #999 !important;
+    padding: 0px !important;
+}
+
+.grdgsmcom td[colspan="4"] {
+    padding: 0px !important;
+}
+
+    .grdgsmcom td[colspan="4"] th {
+        border-top: 0px;
+    }
+
+#ctl00_cph_main_content_grdEMBROIDERY, 
+#ctl00_cph_main_content_grdEMBELLISHMENT, 
+#ctl00_cph_main_content_grdRFD, 
+#ctl00_cph_main_content_grdFINISHED, 
+#ctl00_cph_main_content_grdPRINT, 
+#ctl00_cph_main_content_grdDYED, 
+#ctl00_cph_main_content_grdGRIEGE, tr td:first-child
+{
+    padding-top:0!important;
+    }
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.hide_me {
+    display: none;
+}
+
+.show_me {
+    display: block !important;
+}
+
+#data {
+    width: 100%;
+}
+
+.toptd {
+    padding: 5px 0px;
+    font-size: 13px !important;
+}
+
+.textboxAslabel {
+    border: none;
+    background-color: #FFF;
+    border-color: #FFF;
+}
+
+.greigegrdbor {
+    border: 1px solid #999;
+}
+
+.HeaderClass td:first-child {
+    padding-left: 0px !important;
+}
+
+table.greigegrdbor td:first-child {
+    border-left-color: #999 !important;
+}
+
+table.greigegrdbor td:last-child {
+    border-right-color: #999 !important;
+}
+
+table.greigegrdbor tr:nth-last-child(1) > td {
+    border-bottom-color: #999 !important;
+}
+
+table.greigegrdbor table td:first-child {
+    border-left-color: #e2dddd99 !important;
+}
+
+table.greigegrdbor table td:last-child {
+    border-right-color: #e2dddd99 !important;
+}
+
+table.greigegrdbor table tr:nth-last-child(1) > td {
+    border-bottom-color: #e2dddd99 !important;
+}
+
+#secure_footer {
+    display: none;
+}
+
+#sb-wrapper-inner {
+    border: 5px solid #999;
+    border-radius: 5px;
+    background: #fff;
+}
+/*  #sb-wrapper{top:100px !important;
+                  left:193px !important;
+                  }*/
+
+.widthAction {
+    min-width: 35px !important
+}
+
+.widthPending {
+    min-width: 80px !important
+}
+
+.greigegrd tr td:nth-child(2) > table td {
+    text-align: center;
+}
+
+.lbls {
+    input [type='text']:not(.userListBox)
+
+{
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    padding: 0 0 0 0 !important;
+}
+/* Clearable text inputs */
+.clearable {
+    position: relative;
+    display: inline-block;
+}
+
+    .clearable input[type=text] {
+        padding-right: 24px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+.clearable__clear {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0 8px;
+    font-style: normal;
+    font-size: 1.2em;
+    user-select: none;
+    cursor: pointer;
+}
+
+.clearable input::-ms-clear { /* Remove IE default X */
+    display: none;
+}
+
+.grdDYEDtable td {
+    border: 1px solid #999;
+}
+
+.PrintRowCount td {
+    padding: 0px 0px !important;
+}
+
+.greigegrdbor.nobordertd {
+    border: 0px;
+}
+
+    .greigegrdbor.nobordertd .HeaderClass td {
+        border: 1px solid #999;
+    }
+
+    .greigegrdbor.nobordertd td {
+        border: 0px;
+    }
+
+::placeholder {
+    padding-left: 5px;
+}
+
+.leftagligh {
+    text-align: left;
+}
+
+.rightagligh {
+    text-align: left;
+}
+
+#spinnL {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../../App_Themes/ikandi/images1/loading128.gif) 50% 50% no-repeat #EBF1FA;
+}
+
+.selectedCell {
+    background-color: #9caac1 !important;
+}
+
+.unselectedCell {
+    background-color: white !important;
+}
+
+.numbers {
+    font-family: Tahoma;
+    color: red;
+    /* unvisited link */
+    a: link
+
+{
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: gray;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fade-in {
+    animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+#spinner {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../../App_Themes/ikandi/images1/loading128.gif) 50% 50% no-repeat;
+}
+.clsDivHdr {
+    background: #dddfe4;
+    font-weight: 500;
+    color: #575759;
+    font-family: arila;
+    font-size: 11px;
+    padding: 5px 0px;
+    text-align: center;
+    text-transform: capitalize;
+    width: 544px;
+}
+
+.RowBackColor {
+    background-color: #f1eaf0 !important;
+}
+
+.class1 {
+    background-color: red;
+}

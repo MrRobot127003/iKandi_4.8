@@ -1,0 +1,25 @@
+OrderDataprovider.cs------------------------updateRescan
+Internal\Production\ProductionPlanningMatrix.aspx.cs--------------------------grdProductionMatrixHeader_RowDataBound
+ProductionDataprovider.cs-----------------------GetTopFualtDetails
+iKandi.Web\Admin\FitsSample\ReSheduleStyleToPatternMaster.aspx.cs-------------------btnTopSubmit_Click
+iKandi.Web\Admin\FitsSample\ReSheduleStyleToPatternMaster.aspx.cs---------------------ddlMaster_SelectedIndexChanged *
+
+
+
+
+work done :
+
+1. iKandi.Web\Internal\Production\ProductionPlanningMatrix.aspx.cs
+2. iKandi.Web\Internal\Production\ProductionDetails.aspx.cs
+3. iKandi.DAL\OrderDataProvider.cs ---- function : SubmitRescan, updateRescan
+4. iKandi.DAL\ProductionDataProvider.cs ----function : GetTopFualtDetails
+5. iKandi.BLL\Production\ProductionController.cs ---- function : GetTopFualtDetails
+
+
+
+Stored Proc :
+1. Usp_Dynamacially_Exfactory_For_ProductionMatrix_ForStyleCode
+2. Get_ProductionDetails_History
+3. Get_ProductionDetails_History_OnLineDo
+
+

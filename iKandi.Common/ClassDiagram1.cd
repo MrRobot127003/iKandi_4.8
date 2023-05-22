@@ -1,0 +1,2029 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="iKandi.Common.Constants" Collapsed="true">
+    <Position X="139.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACiFCJmSAAtKGEgEoQBC8ApUWbEKBGAfIAjUECnhEQ=</HashCode>
+      <FileName>Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.DropDownListAdapter" Collapsed="true">
+    <Position X="156.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAEAAEAQAAAAAAABAgAAAAAIAACAAAAAAAA=</HashCode>
+      <FileName>DropDownListAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.AccessoryWorkingDetail" Collapsed="true">
+    <Position X="3.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAAAAABAIAAAEAEJQAAQIAIAAQAAABAgAAAAAA=</HashCode>
+      <FileName>Entities\Accessory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.AccessoryInHouseHistory" Collapsed="true">
+    <Position X="141" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEABAAAAAAAAAAAAAAAAAAAAIAAABAAAAgAAAgAA=</HashCode>
+      <FileName>Entities\Accessory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.AccessoryWorking" Collapsed="true">
+    <Position X="148" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECgAAEBIAAEIAAAAAAAAAAAAAAAEgAAAADKAAAAAA=</HashCode>
+      <FileName>Entities\Accessory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Accessory" Collapsed="true">
+    <Position X="139.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAgAAAAAA=</HashCode>
+      <FileName>Entities\Accessory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.AccessoryQuality" Collapsed="true">
+    <Position X="142.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAABAYAADgCAAAAQAQCCAmAAAAAEIIAAAIggKBA=</HashCode>
+      <FileName>Entities\AccessoryQuality.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.AccessoryQualityBuyer" Collapsed="true">
+    <Position X="144.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Entities\AccessoryQualityBuyer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.AccessoryQualityPicture" Collapsed="true">
+    <Position X="146.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Entities\AccessoryQualityPicture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.AdminTargetdate" Collapsed="true">
+    <Position X="149.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAgAIAAAAAAAAQRAAAAAAAgA=</HashCode>
+      <FileName>Entities\AdminTargetdate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Allocation" Collapsed="true">
+    <Position X="29.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgAgAQFAAAAIBAAAIAAAAAAAwEAAACAAAAAAAAAABA=</HashCode>
+      <FileName>Entities\Allocation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.AllocationCollection" Collapsed="true">
+    <Position X="151.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Allocation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.AllocationHistory" Collapsed="true">
+    <Position X="153.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAQAgAEAAAAABAAAAAAAAAEAAAAAQAAAAA=</HashCode>
+      <FileName>Entities\Allocation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.AllocationHistoryCollection" Collapsed="true">
+    <Position X="155" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Allocation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ApplicationModule" Collapsed="true">
+    <Position X="156.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAIABAAAAAAAEAAAAEAAAQABAAgAAAA=</HashCode>
+      <FileName>Entities\ApplicationModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ApplicationModuleColumn" Collapsed="true">
+    <Position X="137.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBA=</HashCode>
+      <FileName>Entities\ApplicationModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.BaseEntity" Collapsed="true">
+    <Position X="71" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAACAAAAIAAAAAAAAAE=</HashCode>
+      <FileName>Entities\BaseEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.BuyingHouse" Collapsed="true">
+    <Position X="141" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAACAAgAAAEAAAAAAEIAAAAAACAAAAIAAAAAA=</HashCode>
+      <FileName>Entities\BuyingHouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.BuyingHouses" Collapsed="true">
+    <Position X="142.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\BuyingHouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Category" Collapsed="true">
+    <Position X="144.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACABCAAAAAAAAAAAAQAAAACACAAAAARAAAAAAAAE=</HashCode>
+      <FileName>Entities\Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Client" Collapsed="true">
+    <Position X="148" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAQAQEAggCYAhAAUACgoAUAEAAAQgAkCA4AAIAAAAAA=</HashCode>
+      <FileName>Entities\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ClientDepartment" Collapsed="true">
+    <Position X="155" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBChCQEIAgKAygggQQABCAwCQQSQgEAGIMqGACCAAIQ=</HashCode>
+      <FileName>Entities\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ClientContact" Collapsed="true">
+    <Position X="151.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACIAAAAAAAAAAAQACAAAAAEAAAAAIAAAAAA=</HashCode>
+      <FileName>Entities\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Clients" Collapsed="true">
+    <Position X="137.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ClientDepartmentAssociation" Collapsed="true">
+    <Position X="156.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAIAAwAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ClientAQL" Collapsed="true">
+    <Position X="149.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAEAAACAAA=</HashCode>
+      <FileName>Entities\ClientAQL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Costing" Collapsed="true">
+    <Position X="141" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABAgwAkQmKAgACQBAAABAQANqEgICEAY4ACk4gAICA=</HashCode>
+      <FileName>Entities\Costing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.FabricCosting" Collapsed="true">
+    <Position X="148" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QGAAggAAABAgAABAAAgAQMCAAAAAQCAAAAAAAAAAQAI=</HashCode>
+      <FileName>Entities\Costing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Accessories" Collapsed="true">
+    <Position X="137.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAgAAAAAAABBAAAgAAACEAAAAAAAAAAAAgAAAQAA=</HashCode>
+      <FileName>Entities\Costing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Charges" Collapsed="true">
+    <Position X="146.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIgAAAAAAAABgAAgAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Entities\Costing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.LandedCosting" Collapsed="true">
+    <Position X="146.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIogCAgoAAAABABAgEAQACBAAAAAEAAgAAIAAAACg=</HashCode>
+      <FileName>Entities\Costing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.FOBPricing" Collapsed="true">
+    <Position X="139.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgCAgCAAAABABAAEAAAAAAAAAAAAAiAIIACgAAA=</HashCode>
+      <FileName>Entities\Costing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.CostingCollection" Collapsed="true">
+    <Position X="142.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Costing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ClientCostingDefault" Collapsed="true">
+    <Position X="153.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAgAAAgAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Entities\Costing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Courier" Collapsed="true">
+    <Position X="144.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAgAAAQBAAABAAAAEgAAAEFAgAAAAAeAgAhAACAAA=</HashCode>
+      <FileName>Entities\Courier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Couriers" Collapsed="true">
+    <Position X="146.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Courier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.CurrencyConversion" Collapsed="true">
+    <Position X="148" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAEAAAAAAgAAAAAAAAAAABAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\CurrencyConversion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Cutting" Collapsed="true">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACEAABAIAAAAAAAACAQASAAAADAAAAIAAAAQAAAAE=</HashCode>
+      <FileName>Entities\Cutting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.CuttingDetail" Collapsed="true">
+    <Position X="27" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAgAFAAAAAACAgAAAAACAAAAAAAgAAAAA=</HashCode>
+      <FileName>Entities\Cutting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.CuttingHistory" Collapsed="true">
+    <Position X="27" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Cutting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.DeliveryBooking" Collapsed="true">
+    <Position X="33.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFAAAIAAQAKABAAMAAAAEAAAAIAAIgAAAMhAAAAAiA=</HashCode>
+      <FileName>Entities\DeliveryBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.DeliveryMode" Collapsed="true">
+    <Position X="149.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADCAAAAAAAECAAAgQgAAgAgAAAAAEAAAAYgBBAIAg=</HashCode>
+      <FileName>Entities\DeliveryMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.TypeOfPacking" Collapsed="true">
+    <Position X="146.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\DeliveryMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Department" Collapsed="true">
+    <Position X="151.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Department.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.UserDesignation" Collapsed="true">
+    <Position X="151.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAgAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Designation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.DesignerTargetAllocation" Collapsed="true">
+    <Position X="153.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACCCAAASJAgAAQQABIUEAABAAADBAAAQAAAgAAACY=</HashCode>
+      <FileName>Entities\DesignerTargetAllocation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.DispatchEntry" Collapsed="true">
+    <Position X="155" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAEAAgAAAgAAAAAAAAAAEAACAAAAAAAAAAAE=</HashCode>
+      <FileName>Entities\DispatchEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.EmailTemplate" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAgAgAEAAAIAAAAAAAAAAAAAAAAIAAAAFAAA=</HashCode>
+      <FileName>Entities\EmailTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.EmailSchedule" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABBAAAQAAAAEACAAAQA=</HashCode>
+      <FileName>Entities\EmailTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.EntityBasetable" Collapsed="true">
+    <Position X="89" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAEAIAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\EntityBasetable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.FabricGroupAdmin" Collapsed="true">
+    <Position X="114.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Entities\Fabric.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.FabricApproval" Collapsed="true">
+    <Position X="144.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEBAAAEIAAAAAAAAAAAAEAAACCBAAIAAAAAAAAAE=</HashCode>
+      <FileName>Entities\FabricApproval.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.FabricApprovalDetails" Collapsed="true">
+    <Position X="146.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBACMEAEAJQiAAEAAACAAAQQAAECAAgAJAgAAAAIAIU=</HashCode>
+      <FileName>Entities\FabricApproval.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.FabricHistoryDetails" Collapsed="true">
+    <Position X="149.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Entities\FabricHistoryDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.FabricInhouseHistory" Collapsed="true">
+    <Position X="9" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgAAAAAABAABBAAAAAAAAAEAwBAAAABAAAAAAAAgAA=</HashCode>
+      <FileName>Entities\FabricHistoryDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.FabricQuality" Collapsed="true">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BmaAAEERUQACSwCAAsBYEXXDEiwRABEHFIgohKggY1I=</HashCode>
+      <FileName>Entities\FabricQuality.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.FabricQualityBuyer" Collapsed="true">
+    <Position X="151.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Entities\FabricQualityBuyer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.FabricQualityPicture" Collapsed="true">
+    <Position X="153.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Entities\FabricQualityPicture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.FabricWorking" Collapsed="true">
+    <Position X="155" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>4JAKkABhAAhQEBQggAhBUAQIAAACAQwFISQCEgAiAaE=</HashCode>
+      <FileName>Entities\FabricWorking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.FACutting" Collapsed="true">
+    <Position X="87.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAADAAAAAAAAAAAAIAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Entities\FACutting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.FabricOutStandingPayments" Collapsed="true">
+    <Position X="96.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QMAAAIQAAAAAAAQEIDCQACFAEQQAgAAABAAAAAAAAIA=</HashCode>
+      <FileName>Entities\Financial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ListFosp" Collapsed="true">
+    <Position X="137.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Financial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SupplierDueList" Collapsed="true">
+    <Position X="101.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAAAAAMAEACAAAAAAAAGIAQQIABAAAIAACAAgIAA=</HashCode>
+      <FileName>Entities\Financial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ListSdl" Collapsed="true">
+    <Position X="141" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Financial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SrvBill" Collapsed="true">
+    <Position X="92.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAEAAAAAAAAAAAAEAAAAAAAAAIAABSAAAAAA=</HashCode>
+      <FileName>Entities\Financial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ListSrvBill" Collapsed="true">
+    <Position X="142.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Financial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SrvBillDetail" Collapsed="true">
+    <Position X="117" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAAAAABEAQBAAAIkAgAACIAAQIAgAAAQABCAQAAAA=</HashCode>
+      <FileName>Entities\Financial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SrvBillManagement" Collapsed="true">
+    <Position X="117" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBAkAAABgAAEABAIAQAABACAIAAIgAABAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Financial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ListSbDetail" Collapsed="true">
+    <Position X="139.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Financial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.FinancialFop" Collapsed="true">
+    <Position X="54" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAQAAAAAEAACAAAAgAQQAgAAJBAAAAgAAAAA=</HashCode>
+      <FileName>Entities\Financial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SupplierSettleMent" Collapsed="true">
+    <Position X="54" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Financial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ListFinancialFop" Collapsed="true">
+    <Position X="156.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Financial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SupplierSettlement" Collapsed="true">
+    <Position X="67.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAACAAAAAAAAAMAAAAAAAAAIAAUAAkAAA=</HashCode>
+      <FileName>Entities\Financial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ListSSettlement" Collapsed="true">
+    <Position X="144.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Financial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SSMainBill" Collapsed="true">
+    <Position X="78.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAEAAAAAAAAAoAQQAgAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Entities\Financial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SSBillCheque" Collapsed="true">
+    <Position X="85.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAQAAAAAEAAAAAEAAAAAAAEAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Entities\Financial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SSBillSupplier" Collapsed="true">
+    <Position X="90" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAEAEEAACAAAAAAAAAEAAAAAAAAAAAIGAAgAAA=</HashCode>
+      <FileName>Entities\Financial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Fits" Collapsed="true">
+    <Position X="156.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAAAAAAEAIAgIgAAAAAAEEEAAAAAABABAAQAgIAA=</HashCode>
+      <FileName>Entities\Fits.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.FitsTrack" Collapsed="true">
+    <Position X="137.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAABgAAQAAAhAAAAABAAAAAEAEBAAAQBAAAgAAAA=</HashCode>
+      <FileName>Entities\Fits.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.GarmentTesting" Collapsed="true">
+    <Position X="142.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAEAAAAAAAAABAAAAABAAAEBAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Fits.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.GarmentTestingUploadedReport" Collapsed="true">
+    <Position X="6.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Entities\Fits.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.BulkTestingUploadedReport" Collapsed="true">
+    <Position X="6.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Fits.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SealerPending" Collapsed="true">
+    <Position X="151.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAwAAAAAAABAAAAgAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Entities\Fits.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.FourPointCheckAdmin" Collapsed="true">
+    <Position X="112.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAACAAAAAAAAAAAAIAAIAAAwAEAAEAgAAAEEAAAA=</HashCode>
+      <FileName>Entities\FourPointCheck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.FourPointDetail" Collapsed="true">
+    <Position X="119.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAgAAAABIAiAEEABQAICoAAADAIAAEJAAEoEwCAACA=</HashCode>
+      <FileName>Entities\FourPointCheck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.FourPointProcess" Collapsed="true">
+    <Position X="51.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAABAAQAAACChAACACQAAQAAAgAAAAAAAAA=</HashCode>
+      <FileName>Entities\FourPointCheck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.FourPointProcessDetail" Collapsed="true">
+    <Position X="56.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAABAABAAAAAAACAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Entities\FourPointCheck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.FourPointSystemHeader" Collapsed="true">
+    <Position X="63" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAwIIAAAAAAAAIIAAAEMAEAQAIEAAJAYAIIQBgACA=</HashCode>
+      <FileName>Entities\FourPointCheck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.GradeAdmin" Collapsed="true">
+    <Position X="69.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAgAEAAAAAAAAAEAAAE=</HashCode>
+      <FileName>Entities\GradeAdmin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.GridViewTemplate" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="146.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAIBAAAAAAAAAAAAAAAAACAAAAAAAEAAA=</HashCode>
+      <FileName>Entities\GridViewTemplate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="iKandi.Common.Holiday" Collapsed="true">
+    <Position X="149.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAAAAgAEAAAAQAAgAAAAAAAAABAQAABAAAIAA=</HashCode>
+      <FileName>Entities\Holiday.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.INDBlock" Collapsed="true">
+    <Position X="153.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQICAJAIgAEAQAAAAAAAABAAAAAAAQIAAACEBAAA=</HashCode>
+      <FileName>Entities\INDBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.INDBlocks" Collapsed="true">
+    <Position X="155" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\INDBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.InlinePPM" Collapsed="true">
+    <Position X="20.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBUGjUAAKkICBDKDDMACEQhABIAMggwRAwAABQAIgFA=</HashCode>
+      <FileName>Entities\InlinePPM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.InlinePPMTrims" Collapsed="true">
+    <Position X="3.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Entities\InlinePPM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.InlinePPMFile" Collapsed="true">
+    <Position X="156.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAIAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\InlinePPM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.InlinePPMOrderContract" Collapsed="true">
+    <Position X="33.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAgAAAAAIAAAAIgAAAAAIAAgQABAAAAAFAAAAAQBAAA=</HashCode>
+      <FileName>Entities\InlinePPM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Invoice" Collapsed="true">
+    <Position X="47.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SIkYuADBlVopCIBHghB2UgeoJEGERIDKB0jCpRgwATE=</HashCode>
+      <FileName>Entities\Invoice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.InvoiceOrder" Collapsed="true">
+    <Position X="38.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAABAAABAgCQQBAAAACAAAQCBAAAAAAAAAQA=</HashCode>
+      <FileName>Entities\Invoice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.BoutiqueBilling" Collapsed="true">
+    <Position X="128.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAIABAAABAAAAAgAAAAACAAAAAgABAAAAAAABAQCA=</HashCode>
+      <FileName>Entities\Invoice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.BoutiqueBillingOrder" Collapsed="true">
+    <Position X="139.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAQAAAAAAAABAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Entities\Invoice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.LabTest" Collapsed="true">
+    <Position X="144.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCUAEAABAAAAAAAAAPAAAAABANIACAIAgEAQABAAIAA=</HashCode>
+      <FileName>Entities\LabTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.LabInternalTest" Collapsed="true">
+    <Position X="142.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAIAAEAAASAAAAAAAEAAAAAAAAAAAAAQAAAQBAAAA=</HashCode>
+      <FileName>Entities\LabTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.LabGarmentTest" Collapsed="true">
+    <Position X="141" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAIAAAAAAAAAEAAAAAAAAAAAAAIAAgAEAIAA=</HashCode>
+      <FileName>Entities\LabTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.LabBulkTest" Collapsed="true">
+    <Position X="139.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAABAEEAIAAAAAAAAAAAAEAAAAAAAAAAAAgAAAIEI=</HashCode>
+      <FileName>Entities\LabTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Leave" Collapsed="true">
+    <Position X="148" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAEAgAAAAIQAAACAAAQCAAAmAAAAQQABAABQIA=</HashCode>
+      <FileName>Entities\Leave.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.LeaveType" Collapsed="true">
+    <Position X="149.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAgAAIA=</HashCode>
+      <FileName>Entities\Leave.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Liability" Collapsed="true">
+    <Position X="151.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgQCAgJAhAIAAQhEAcSQAAACACoDgEABAAANRSAA=</HashCode>
+      <FileName>Entities\Liability.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.LiabilityAccessory" Collapsed="true">
+    <Position X="153.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgAAAAAAAAAAAAAAAABCQAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Liability.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Order" Collapsed="true">
+    <Position X="15.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAAASBQERdqykAAEAp8IEAyYKBMFEc0CxQEiAQEEIKQ=</HashCode>
+      <FileName>Entities\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.MoShippingDetail" Collapsed="true">
+    <Position X="22.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAIgAAEAAAgKAAAAAAAEBAiEBAAAAhAAAAQA=</HashCode>
+      <FileName>Entities\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.OrderDetail" Collapsed="true">
+    <Position X="33.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>WtKBmfkVAt9jJVAc7q/gwIxQkCCXCmGFoxU5twtVQRo=</HashCode>
+      <FileName>Entities\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.OrderDetailSizes" Collapsed="true">
+    <Position X="151.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFAAAIIAgAAAAAAAAAAAAACAACABAAAAwAAABAA=</HashCode>
+      <FileName>Entities\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.PartShipmentOrder" Collapsed="true">
+    <Position X="36" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.OrderLimitation" Collapsed="true">
+    <Position X="153.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAOAIDIEAAAAgEkAAAKAQAAAIBAAAIIAAhAAAAAgAAA=</HashCode>
+      <FileName>Entities\OrderLimitation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Owners" Collapsed="true">
+    <Position X="155" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Owners.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Packing" Collapsed="true">
+    <Position X="130.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEIoBCAEIOIAKCAgiAAEAMAACUAQACAAAAAggggEAA=</HashCode>
+      <FileName>Entities\Packing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.PackingOrders" Collapsed="true">
+    <Position X="141" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAEAAAACAAAAAAAAQgAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Packing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.PackingDistribution" Collapsed="true">
+    <Position X="139.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BGAIgAABAIAAAAQAAAAAAAAUAAABgEAJAAQAgIAQAAA=</HashCode>
+      <FileName>Entities\Packing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.PackingDimension" Collapsed="true">
+    <Position X="137.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAIAAAAAAAAAAAQAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Entities\Packing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.PackingCollection" Collapsed="true">
+    <Position X="156.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Packing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Partner" Collapsed="true">
+    <Position X="142.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABBIAACAQCAEgAAAAAAAAAgAAAAAAAACAQAAIAgAAAA=</HashCode>
+      <FileName>Entities\Partner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.PartnerEmail" Collapsed="true">
+    <Position X="146.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACgEAAAAAAAAAAYACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Partner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.PartnerClient" Collapsed="true">
+    <Position X="144.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAw=</HashCode>
+      <FileName>Entities\Partner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.PaymentAdmin" Collapsed="true">
+    <Position X="81" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Entities\Payment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Permission" Collapsed="true">
+    <Position X="153.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAgAgAEAAEAAggAAABAkAAAAAAAAEABBA=</HashCode>
+      <FileName>Entities\Permission.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.MasterPO" Collapsed="true">
+    <Position X="18" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AcAAAAgAABAAAAIAEkAAACAAAAAAAAAAAgCAAAAEBAQ=</HashCode>
+      <FileName>Entities\PO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.PO" Collapsed="true">
+    <Position X="24.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAIkABIAAAIAANkAAAIBAAAAAAAECIgAEAQAAzAA=</HashCode>
+      <FileName>Entities\PO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.POProcess" Collapsed="true">
+    <Position X="42.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\PO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Po_Type" Collapsed="true">
+    <Position X="103.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\PO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.POFabExt" Collapsed="true">
+    <Position X="11.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\PO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ReprocessPO" Collapsed="true">
+    <Position X="24.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAQACCAAAAABABAAAAAAAAAAAAAAAIAAAAAACAAAA=</HashCode>
+      <FileName>Entities\PO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.CurrencyMaster" Collapsed="true">
+    <Position X="110.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAQAAAA=</HashCode>
+      <FileName>Entities\PO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ListCM" Collapsed="true">
+    <Position X="155" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\PO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SInventoryDetail" Collapsed="true">
+    <Position X="121.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAEAAAABAAgAAAApAAAAACAgAgAAAAAAYAAAAAgAAA=</HashCode>
+      <FileName>Entities\PO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ListSID" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\PO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SamplingInventory" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAABAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Entities\PO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.User_Task" Collapsed="true">
+    <Position X="65.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABACIAAUAAAAAAABBAAAAAAAgIAAgICAAAQAAgAAA=</HashCode>
+      <FileName>Entities\PO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Print" Collapsed="true">
+    <Position X="155" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAwIAEQAIgGAAQBAABAAACBAAAAAAAWAAAAAACAAA=</HashCode>
+      <FileName>Entities\Print.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Prints" Collapsed="true">
+    <Position X="137.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Print.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.PrintHistory" Collapsed="true">
+    <Position X="156.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgIAAAEAEAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAJAA=</HashCode>
+      <FileName>Entities\Print.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ProductionPlanning" Collapsed="true">
+    <Position X="33.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIAAAAAACAAABAAQgAAAAABAAIAIiFIAAAAAEAAAAA=</HashCode>
+      <FileName>Entities\ProductionPlanning.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ProductionUnit" Collapsed="true">
+    <Position X="139.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAUAACgAIAABAAAAAIAAKAAAAAAACACAIAAAAAAA=</HashCode>
+      <FileName>Entities\ProductionUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ProductionUnitCollection" Collapsed="true">
+    <Position X="141" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\ProductionUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.OrderAllocationToProductionUnit" Collapsed="true">
+    <Position X="149.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABECAAAAEAAAAAAAABAAAAIAAAAAAAIAAAAEAAAAAQA=</HashCode>
+      <FileName>Entities\ProductionUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.QualityControl" Collapsed="true">
+    <Position X="142.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgQBGAABAAAAAAhAAgAACDCAkAAAAAwAAAIQAKIA=</HashCode>
+      <FileName>Entities\QualityControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.QualityFaults" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJCwACAAAACIAAoAAIAABAAAACgiEAKAAAAAQAAAAA=</HashCode>
+      <FileName>Entities\QualityControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ItemsToCheck" Collapsed="true">
+    <Position X="137.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBCAAAgIAAAABAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\QualityControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.QualityFaultsCategory" Collapsed="true">
+    <Position X="144.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\QualityControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.QualityFaultsSubCategory" Collapsed="true">
+    <Position X="146.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQBAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\QualityControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.QualityControlStatus" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAQAEAABBAAAAAAAAAAACACAAAAAIAQAAAIQAQAA=</HashCode>
+      <FileName>Entities\QualityControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Reminders" Collapsed="true">
+    <Position X="148" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIIAAAAAEABAAAAAgQAAgAACQhAQAAAAAACAA=</HashCode>
+      <FileName>Entities\Reminders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SamplingFabric" Collapsed="true">
+    <Position X="149.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAgwAAIwIoQDgAUBABABQACBgCACAAAQHAIAAgABAI=</HashCode>
+      <FileName>Entities\SamplingFabric.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SamplingStatus" Collapsed="true">
+    <Position X="132.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAoAIAAAgEEABAEARQAAQAAAS4hIAIQIAgQowAiAAA=</HashCode>
+      <FileName>Entities\SamplingStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Season" Collapsed="true">
+    <Position X="153.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAIAAAAEAAAAAAgAAAAAAAAAAAQAEAAAAA=</HashCode>
+      <FileName>Entities\Season.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Seasons" Collapsed="true">
+    <Position X="155" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Season.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SessionInfo" Collapsed="true">
+    <Position X="156.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Entities\SessionInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ShipmentPlanning" Collapsed="true">
+    <Position X="13.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAACAQAAAAAACAAAUAAAwEAAQAIAgIgACEAAAg=</HashCode>
+      <FileName>Entities\ShipmentPlanning.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ShipmentPlanningOrder" Collapsed="true">
+    <Position X="137.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIYACgAEAAgAAAAAoCAwAEAgEAIgAiABAAAAAQgAABA=</HashCode>
+      <FileName>Entities\ShipmentPlanning.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ShowroomCosting" Collapsed="true">
+    <Position X="139.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAggAAAEAAEBAAAAAgBAAICAAAAAABAAAAAQAAACA=</HashCode>
+      <FileName>Entities\ShowroomCosting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.RCDetail" Collapsed="true">
+    <Position X="92.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAAAACAgIBgAIAAJEABAAGMAQAoCAAAAIIqiAQgAAA=</HashCode>
+      <FileName>Entities\SRV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ThanQuantity" Collapsed="true">
+    <Position X="99" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAABAAAAEAABQAAAIAAAAAAAAQAgAAACACAAAA=</HashCode>
+      <FileName>Entities\SRV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.StatusMeeting" Collapsed="true">
+    <Position X="141" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\StatusMeeting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.StatusDetail" Collapsed="true">
+    <Position X="31.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAABgAAAAQJCAAAAAAAAIAACAIAECACQCAAAhAQI=</HashCode>
+      <FileName>Entities\StatusMeeting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Stitching" Collapsed="true">
+    <Position X="45" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Entities\Stitching.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.StitchingHistory" Collapsed="true">
+    <Position X="49.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAgAAAAAAAAAIAAAAAQBAAAAgAgBCAA=</HashCode>
+      <FileName>Entities\Stitching.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.StitchingDetail" Collapsed="true">
+    <Position X="40.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAICACAQgAAkgwBAAAIEIACABAAAAAIAAAAgAAA=</HashCode>
+      <FileName>Entities\Stitching.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Style" Collapsed="true">
+    <Position X="132.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhApACHAUMIgCAYAJgQhgSANAAA4AGAUQAwBgACMAA=</HashCode>
+      <FileName>Entities\Style.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.StyleFabric" Collapsed="true">
+    <Position X="146.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBCQAAAANAAABAgAAAAAAAGAAAQAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Entities\Style.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.StyleReferenceBlock" Collapsed="true">
+    <Position X="148" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAEAAAAAAAAAAAIQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Entities\Style.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.StyleCurrentUpdate" Collapsed="true">
+    <Position X="144.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAAAACAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAA=</HashCode>
+      <FileName>Entities\Style.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Styles" Collapsed="true">
+    <Position X="149.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Style.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SubCategory" Collapsed="true">
+    <Position X="151.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAACABAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Entities\SubCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SupplierTables" Collapsed="true">
+    <Position X="72" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAEAAAAACAIAAAAAAAAAAAAAAAAABQAAAAAEAAAA=</HashCode>
+      <FileName>Entities\Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SupplierAdmin" Collapsed="true">
+    <Position X="74.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACABAAAAABABIIAAAAAAAAAABCAECAIAAAAEAAAE=</HashCode>
+      <FileName>Entities\Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SupplierContact" Collapsed="true">
+    <Position X="83.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAAAAAAAAAAAAQAAAAAAAAAAAAAIAAgAAA=</HashCode>
+      <FileName>Entities\Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SupplierContactJs" Collapsed="true">
+    <Position X="155" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAAAAAAAAAAAAQAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Entities\Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SecurityReceipt" Collapsed="true">
+    <Position X="94.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAIAAAQAIAAABAAIiAAAgAAA=</HashCode>
+      <FileName>Entities\Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SupplierFabricGroupMapping" Collapsed="true">
+    <Position X="137.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Entities\Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SupplierProcessMapping" Collapsed="true">
+    <Position X="141" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Entities\Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SupplierPoMapping" Collapsed="true">
+    <Position X="139.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Entities\Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SupplierSearch" Collapsed="true">
+    <Position X="142.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAACAAAAABiAAAAAAAAAAAAAIkAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Entities\Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SupplierList" Collapsed="true">
+    <Position X="74.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAEAAAAAAAAAAAAAIAAAAAAAAAAABACAIAEAAAAAAA=</HashCode>
+      <FileName>Entities\Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Supplier" Collapsed="true">
+    <Position X="153.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAJCQAIAAAAAAAAAABAAACAKAAAAEAAAE=</HashCode>
+      <FileName>Entities\Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SupplierContacts" Collapsed="true">
+    <Position X="156.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAAAAAAEAAAAIAAAAAQAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.EIChallanThanDetail" Collapsed="true">
+    <Position X="123.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAgAAAAAA=</HashCode>
+      <FileName>Entities\Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.EiChallanThanList" Collapsed="true">
+    <Position X="137.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.EiCHallanHeader" Collapsed="true">
+    <Position X="58.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAgAAAAIMAAgIAEAQAIAAAAAIAKgAAgAAQ=</HashCode>
+      <FileName>Entities\Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.EiChallan" Collapsed="true">
+    <Position X="58.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Entities\Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.SRCQ" Collapsed="true">
+    <Position X="58.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgYAAAAAABAAAAIAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Entities\Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.User" Collapsed="true">
+    <Position X="149.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACAEAAoSoAAIwAAwAIQAkAAAAIAgCDgACAJAQAAAo=</HashCode>
+      <FileName>Entities\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Users" Collapsed="true">
+    <Position X="155" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.UserHolidayEntitlement" Collapsed="true">
+    <Position X="153.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAABAAAgAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Entities\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.UserTask" Collapsed="true">
+    <Position X="156.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAkAAQAAABAAgACEABAAAAAQAAACAAQABQAAABgAAAE=</HashCode>
+      <FileName>Entities\UserTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.TeamTaskCount" Collapsed="true">
+    <Position X="144.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAEAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\UserTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ListTeamTask" Collapsed="true">
+    <Position X="146.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\UserTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.UserTaskCount" Collapsed="true">
+    <Position X="137.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAACCAAIAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\UserTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ListUserTask" Collapsed="true">
+    <Position X="148" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\UserTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.WashingCuttingTotal" Collapsed="true">
+    <Position X="105.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAACAAAEEIgAAAAAkAAAAECEAAEBAoAEEKiQCAAQI=</HashCode>
+      <FileName>Entities\WashingCutting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.WCTList" Collapsed="true">
+    <Position X="141" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\WashingCutting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.WashingCutting" Collapsed="true">
+    <Position X="105.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GIAAwhIAAAAAAAAAIAwQAAAAEAIBCAAAAAIAoAAZEAs=</HashCode>
+      <FileName>Entities\WashingCutting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.WashingCuttingList" Collapsed="true">
+    <Position X="139.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\WashingCutting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.FabricSrvQuantity" Collapsed="true">
+    <Position X="126" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAABAAAAAAgAAAAAA=</HashCode>
+      <FileName>Entities\WashingCutting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.FSQList" Collapsed="true">
+    <Position X="141" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\WashingCutting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.IIChallan_Main" Collapsed="true">
+    <Position X="60.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAIAAAAAAAIAAAAAQAAAAAAEQACAAAQCAE=</HashCode>
+      <FileName>Entities\WashingCutting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.IIChallan_Detail" Collapsed="true">
+    <Position X="60.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAIAAAAAAIBAAAAAEAAAAAAAAAQAAgQAAAAA=</HashCode>
+      <FileName>Entities\WashingCutting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.IICDList" Collapsed="true">
+    <Position X="151.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\WashingCutting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.IicdAll" Collapsed="true">
+    <Position X="60.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQIAAAAAgAAAAAAIQAAAAAAAAAAAEAAQAAAAAAAA=</HashCode>
+      <FileName>Entities\WashingCutting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.IicdPage" Collapsed="true">
+    <Position X="76.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAQEA=</HashCode>
+      <FileName>Entities\WashingCutting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.WorkflowInstance" Collapsed="true">
+    <Position X="144.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAAAAEACAAAAAAAAAAAAAAAAJBAAAAIAAAAA=</HashCode>
+      <FileName>Entities\WorkflowInstance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.WorkflowInstanceDetail" Collapsed="true">
+    <Position X="146.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgBCAAAAAgiAEAEBQAAgAAQEAAIAAABAEABACAAFAQ=</HashCode>
+      <FileName>Entities\WorkflowInstance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.WorkflowPhase" Collapsed="true">
+    <Position X="148" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Entities\WorkflowInstance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.WorkFlowPhaseCollection" Collapsed="true">
+    <Position X="149.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\WorkflowInstance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.WorkflowSubPhase" Collapsed="true">
+    <Position X="151.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEiAAAAAAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAQIA=</HashCode>
+      <FileName>Entities\WorkflowInstance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.StatusModes" Collapsed="true">
+    <Position X="142.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAgAAAAAAAgAQQAAAAAQAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Entities\WorkflowInstance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Zip" Collapsed="true">
+    <Position X="153.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAACAA=</HashCode>
+      <FileName>Entities\Zip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ExcelGenerator" Collapsed="true">
+    <Position X="141" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEEAAgIAAAQAEAABAAgAIAAAoAACAAGAQBAAAgAAEA=</HashCode>
+      <FileName>ExcelGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ExcelHeader" Collapsed="true">
+    <Position X="142.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAABAAkAEAAAgAAgAAAIAAAAAAAA=</HashCode>
+      <FileName>ExcelGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ExcelCell" Collapsed="true">
+    <Position X="139.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAQQIAAAAAAAAAAAAAAAkAEAAAgQAgAAAIAAAAAAAA=</HashCode>
+      <FileName>ExcelGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.GroupDropDownList" Collapsed="true">
+    <Position X="148" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAQAAAAKAAAAAAAEAAAAAAAAACAAAA=</HashCode>
+      <FileName>GroupDropDownList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.MultiPagePrintPDFGenerator" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MultiPagePrintPDFGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.PDFGenerator" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAoAAEAAEAAAAAAgEIBAAkIgAAACAQBAkAAAAFA=</HashCode>
+      <FileName>PDFGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.PdfMerge" Collapsed="true">
+    <Position X="151.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAEAAAAIAAQAGAAAABAAABAI=</HashCode>
+      <FileName>PdfMerge.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.PDFTableGenerator" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEAAAAAAAEQAEAgBAAggAAgQAAAAAAEAAAAAAgAAAA=</HashCode>
+      <FileName>PDFTableGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.PDFHeader" Collapsed="true">
+    <Position X="149.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAgACBAAEACQAAAAAAAAgIAAAAAAAA=</HashCode>
+      <FileName>PDFTableGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.PDFCell" Collapsed="true">
+    <Position X="148" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DEAQYZIABAAABAAAACAAAkACAAAAQggAAEIAAEAABAQ=</HashCode>
+      <FileName>PDFTableGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.PrintPDFGenerator" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PrintPDFGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.ProcessAdmin" Collapsed="true">
+    <Position X="108" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Process.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.UnhandledExceptionModule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="148" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAKAAAAAAAAAAAAAGAAAAAAA=</HashCode>
+      <FileName>UnhandledExceptionModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="iKandi.Common.WebPageScreenShotGenerator" Collapsed="true">
+    <Position X="142.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAAAAIAAAACAAAEAAAAAAAAAAAhAAAAAAAAAAA=</HashCode>
+      <FileName>WebPageScreenShotGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iKandi.Common.Entities.MasterPO1" Collapsed="true">
+    <Position X="135" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAEAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Entities\MasterPO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GridViewExportUtil" Collapsed="true">
+    <Position X="144.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>GridViewExportUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="iKandi.Common.FPAdmin" Collapsed="true">
+    <Position X="144.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAQAEAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Entities\FourPointCheck.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.TextAlignment" Collapsed="true">
+    <Position X="142.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>ExcelGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.FontWeight" Collapsed="true">
+    <Position X="142.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExcelGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.Role" Collapsed="true">
+    <Position X="144.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAACAAAAAQAAAAAAAAAAAAAAAAAAAAw=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.Group" Collapsed="true">
+    <Position X="149.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgCBAAgAAAAJAACAAAAAAACAAIQACAAAAAAAgAIAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.Company" Collapsed="true">
+    <Position X="146.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.Designation" Collapsed="true">
+    <Position X="151.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCA4IAEYgESgggIUAEAACAIqgAAAABRAQIIAhgAZkg=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.Currency" Collapsed="true">
+    <Position X="149.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAEIAIAAAAAAAAAAAAAEg=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.PrintStatus" Collapsed="true">
+    <Position X="153.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.Fabric" Collapsed="true">
+    <Position X="155" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgQAQAAAAAAIAAQAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.FabricType" Collapsed="true">
+    <Position X="141" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAEAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.FabricMeasurementUnit" Collapsed="true">
+    <Position X="139.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.Origin" Collapsed="true">
+    <Position X="137.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAABAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.PrintType" Collapsed="true">
+    <Position X="156.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAQAAAAACAAAAAAAAAAAAAAAACAAAAAAAAAAI=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.PrintTechnology" Collapsed="true">
+    <Position X="155" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAEAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.AutoComplete" Collapsed="true">
+    <Position X="141" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KEQggCAAABggCACYAAABABACJAQJgCAUFECiEAAAKBA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.QueryType" Collapsed="true">
+    <Position X="139.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.EmailTemplateType" Collapsed="true">
+    <Position X="153.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FlQCgMYQAkKoFhLAgQLAAoAEoDRHgCEocwAEE8AwQaA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.FabricApprovalStatus" Collapsed="true">
+    <Position X="137.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.FabricApprovalStage" Collapsed="true">
+    <Position X="156.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.StatusMode" Collapsed="true">
+    <Position X="148" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQACgBIAQAARAgAgAAIAAABEEAUAChAAhCIAAUAAAAE=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.StatusModeNew" Collapsed="true">
+    <Position X="151.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQACgBIAQAQRAgAgAAIAAABEEAUAChAAhCIAAUAAAAE=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.TaskStatusMode" Collapsed="true">
+    <Position X="139.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYgAgAAAQAQYAigyAECQRANEAAYAGBSAhSAAgQAAAgA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.StatusModeBySequence" Collapsed="true">
+    <Position X="149.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAAgBAAQAABAgAkAAIAAABEEAUACBAAhCAAAUAAAAE=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.Phase" Collapsed="true">
+    <Position X="149.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAABAAAAAAJAAAAAAAAAAAQBA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.SubPhase" Collapsed="true">
+    <Position X="155" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQQEIQgAAAAQAAAAAAFBAAAQgLAAEAAIUABAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.PageType" Collapsed="true">
+    <Position X="141" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAEQAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.ZipRateType" Collapsed="true">
+    <Position X="151.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.PaymentStatus" Collapsed="true">
+    <Position X="148" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.Remarks" Collapsed="true">
+    <Position X="142.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAEAAAIAEAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.PartnerDeliveryMode" Collapsed="true">
+    <Position X="142.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.PartnerType" Collapsed="true">
+    <Position X="146.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAIBAAAgAAAAAAgAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.PartnerEmailFunction" Collapsed="true">
+    <Position X="144.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAQAAABAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.AppModule" Collapsed="true">
+    <Position X="137.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAACAAMgSAACBAAQAAAoAAIACAAAgCQgAAAAAEAgAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.AppModuleColumn" Collapsed="true">
+    <Position X="139.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>P61Mzrd1ll/+trnzrh1m1p/i7sPrBbRr/bf7nptA4/0=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.ReferenceBlockType" Collapsed="true">
+    <Position X="141" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAEAAAAAAAAAAAQAQAAAAAAAAAAAAAICAAAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.WorkflowStatusActionID" Collapsed="true">
+    <Position X="149.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.ShipmentEmailType" Collapsed="true">
+    <Position X="146.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAoAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.CategoryType" Collapsed="true">
+    <Position X="142.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQgAAAAAAAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.SupplyType" Collapsed="true">
+    <Position X="156.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABBAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.ModeType" Collapsed="true">
+    <Position X="156.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.PackingType" Collapsed="true">
+    <Position X="139.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.Terms" Collapsed="true">
+    <Position X="141" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.GarmentTestingReport" Collapsed="true">
+    <Position X="146.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.QAStatus" Collapsed="true">
+    <Position X="137.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.LeaveStatus" Collapsed="true">
+    <Position X="155" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACQAAAAAAAAAAAAAgAAAAAAQAAAAIAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.HolidayType" Collapsed="true">
+    <Position X="151.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.ClientCostingItem" Collapsed="true">
+    <Position X="144.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQAAAAAEABAAAAAAACAAAIAAAkAAAAAAAAACAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.UserTaskType" Collapsed="true">
+    <Position X="148" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAMAIAAAAAAEQAgAAAMAAAAAAIAAQAAAAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.TopStatusType" Collapsed="true">
+    <Position X="144.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAQAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.TypeofPacking" Collapsed="true">
+    <Position X="146.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.GarmentType" Collapsed="true">
+    <Position X="148" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAACAAAAAAAQAEAAAAAAgEAAAACA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.StyleCurrentUpdates" Collapsed="true">
+    <Position X="153.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAIAAAAAAAAAAAQAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.PoType" Collapsed="true">
+    <Position X="151.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAQAAAAAYAAQEAAAAACACAAgFAAAAAAAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.IGMaster" Collapsed="true">
+    <Position X="153.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAIAAAAAAAAAADIAAAAAABAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>LookupTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.ContentAlignment" Collapsed="true">
+    <Position X="148" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAIAAAAAAAAACACAAAAAAAA=</HashCode>
+      <FileName>PDFTableGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="iKandi.Common.TablePosition" Collapsed="true">
+    <Position X="137.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>PDFTableGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

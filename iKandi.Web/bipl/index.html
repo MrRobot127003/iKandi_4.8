@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Boutique International Pvt. Ltd.</title>
+    <meta name="DESCRIPTION" content="Fashion Garments">
+    <meta name="KEYWORDS" content="Fashion">
+    <link rel="stylesheet" type="text/css" href="css/centering_styles.css">
+    <link href="css/ikandi.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="lib/jquery-1.2.3.pack.js"></script>
+    <script type="text/javascript" src="lib/jquery.jcarousel.pack.js"></script>
+    <script type="text/javascript" src="lib/thickbox/thickbox.js"></script>
+    <link rel="stylesheet" type="text/css" href="lib/jquery.jcarousel.css" />
+    <link rel="stylesheet" type="text/css" href="lib/thickbox/thickbox.css" />
+    <script type="text/javascript" src="js/ie6/jquery-1.3.2.min.js"></script>
+    <script type="text/javascript" src="js/ie6/jquery.jcarousel1.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/skinie6.css" />
+    <script type="text/javascript">
+        // Set thickbox loading image
+        tb_pathToImage = "images/loading-thickbox.gif";
+
+        var mycarousel_itemList = [
+    { url: "images/img1_s.jpg", title: "" },
+    { url: "images/img2_s.jpg", title: "" },
+    { url: "images/img3_s.jpg", title: "" },
+    { url: "images/img4_s.jpg", title: "" },
+    { url: "images/img5_s.jpg", title: "" },
+    { url: "images/img6_s.jpg", title: "" },
+    { url: "images/img7_s.jpg", title: "" },
+    { url: "images/img8_s.jpg", title: "" },
+    { url: "images/img9_s.jpg", title: "" }
+];
+
+        function mycarousel_itemLoadCallback(carousel, state) {
+            for (var i = carousel.first; i <= carousel.last; i++) {
+                if (carousel.has(i)) {
+                    continue;
+                }
+
+                if (i > mycarousel_itemList.length) {
+                    break;
+                }
+
+                // Create an object from HTML
+                var item = jQuery(mycarousel_getItemHTML(mycarousel_itemList[i - 1])).get(0);
+
+                // Apply thickbox
+                tb_init(item);
+                carousel.add(i, item);
+            }
+        };
+        /**
+        * Item html creation helper.
+        */
+        function mycarousel_getItemHTML(item) {
+            var url_m = item.url.replace(/_s.jpg/g, '_m.jpg');
+            return '<a href="' + url_m + '" title="' + item.title + '" class="opacityit"><img  src="' + item.url + '" width="284" height="120" border="0" alt="' + item.title + '" /></a>';
+        };
+
+        jQuery(document).ready(function () {
+            jQuery(".jcarousel-list").jcarousel();
+        });
+    </script>
+</head>
+<body class="center_bodyCentering">
+    <script type="text/javascript">
+        function uri() {
+            var url = window.location.protocol + "//" + window.location.host + "/Public/Login.aspx";
+            self.location = url;
+        }
+    </script>
+    <div class="center_contentWrapper">
+        <div class="center_mainContent">
+            <div id="header">
+                <div id="bipl_logo" style="float: left;">
+                    <img src="images\boutique-logo.png"></div>
+                <div class="top_links_new">
+                    <div id="home">
+                        <a href="index.html">home</a></div>
+                    <div id="plus2">
+                        |</div>
+                    <div id="login">
+                        <a href="#" onclick="uri()">login</a></div>
+                </div>
+            </div>
+            <div id="greyline">
+                <div id="corporate">
+                    <a href="corporate.html">corporate</a></div>
+                <div id="products">
+                    <a href="products.html">products</a></div>
+                <div id="press">
+                    <a href="presspictures.html">press pictures</a></div>
+                <div id="news">
+                    <a href="news.html">news</a></div>
+                <div id="contact">
+                    <a href="contact.html">contact</a></div>
+            </div>
+            <div id="banner">
+                <div id="wrap">
+                    <div class="jcarousel-scope">
+                        <ul class="jcarousel-list">
+                            <li><a href="images/img1_m.jpg" id="opacityit" class="thickbox">
+                                <img src="images/img1_s.jpg" width="284px" height="120" /></a></li>
+                            <li><a href="images/img2_m.jpg" id="opacityit" class="thickbox">
+                                <img src="images/img2_s.jpg" width="284px" height="120" /></a></li>
+                            <li><a href="images/img3_m.jpg" id="opacityit" class="thickbox">
+                                <img src="images/img3_s.jpg" width="284px" height="120" /></a></li>
+                            <li><a href="images/img4_m.jpg" id="opacityit" class="thickbox">
+                                <img src="images/img4_s.jpg" width="284px" height="120" /></a></li>
+                            <li><a href="images/img5_m.jpg" id="opacityit" class="thickbox">
+                                <img src="images/img5_s.jpg" width="284px" height="120" /></a></li>
+                            <li><a href="images/img6_m.jpg" id="opacityit" class="thickbox">
+                                <img src="images/img6_s.jpg" width="284px" height="120" /></a></li>
+                            <li><a href="images/img7_m.jpg" id="opacityit" class="thickbox">
+                                <img src="images/img7_s.jpg" width="284px" height="120" /></a></li>
+                            <li><a href="images/img8_m.jpg" id="opacityit" class="thickbox">
+                                <img src="images/img8_s.jpg" width="284px" height="120" /></a></li>
+                            <li><a href="images/img9_m.jpg" id="opacityit" class="thickbox">
+                                <img src="images/img9_s.jpg" width="284px" height="120" /></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="presspic" onclick="window.location.href='presspictures.html'">
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            2011 © Boutique International Pvt. Ltd. All Rights Reserved.
+        </div>
+    </div>
+</body>
+</html>

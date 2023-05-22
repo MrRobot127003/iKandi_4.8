@@ -1,0 +1,55 @@
+/**** Site Centering  main content ****/
+
+.center_bodyCentering {
+	text-align:center;
+	min-width:920px;
+	margin: 0px;
+	background-color: #FFFFFF;
+	background-image:url(../images/bg_10.jpg);
+	background-repeat:repeat-x;
+}
+
+.center_contentWrapper {
+	width:920px;
+	text-align:left;
+	margin:0 auto;
+/*	background-color: #FFFFFF;
+	background-image: url(shadow.gif);
+	background-repeat: repeat-y;
+	background-position: right top;*/
+}
+
+.center_topShadow {
+	float:right;
+	_margin-right:-2px;
+	_margin-left:-10px;
+	width: 7px;
+	height: 13px;
+}
+
+.center_mainContent {
+	/*	border-left:solid 1px #e1dfdc;*/
+	width: 920px;
+}
+
+.center_leftColumn {
+	width:300px;
+	padding-bottom:15px;
+	vertical-align:top;
+	float: left;
+}
+
+.center_rightColumn {
+	width:619px;
+	border-left:solid 1px #e1dfdc;
+	float: left;
+}
+
+.center_singleColumn {
+	width:920px;
+}
+
+.center_footerCentering {
+	width:920px;
+	margin:0 auto;
+}

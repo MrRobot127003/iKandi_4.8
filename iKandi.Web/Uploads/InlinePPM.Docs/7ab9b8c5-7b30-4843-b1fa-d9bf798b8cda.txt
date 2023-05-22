@@ -1,0 +1,36 @@
+  var weekDays = new Array(7);
+
+            $(function () {
+                //setter        
+                $('.date-selected').datepicker({
+                    dateFormat: 'dd M y (D)',
+                    constrainInput: true,
+                    beforeShowDay: noWeekendsOrHolidays
+                });
+
+                weekDays[0] = $("#<%= hdnMon.ClientID %>").val();
+                weekDays[1] = $("#<%= hdnTue.ClientID %>").val();
+                weekDays[2] = $("#<%= hdnWed.ClientID %>").val();
+                weekDays[3] = $("#<%= hdnThu.ClientID %>").val();
+                weekDays[4] = $("#<%= hdnFri.ClientID %>").val();
+                weekDays[5] = 0;
+                weekDays[6] = 0;
+            });
+
+
+
+            function noWeekendsOrHolidays(date) {
+                var noWeekend = jQuery.datepicker.noWeekends(date);
+                return noWeekend[0] ? nationalDays(date) : noWeekend;
+            }
+
+            /* utility functions */
+            function nationalDays(date) {
+                for (i = 0; i < weekDays.length; i++) {
+                    if (weekDays[date.getDay() - 1] == 0) {
+                        return [false];
+                    }
+                }
+                return [true];
+
+            }

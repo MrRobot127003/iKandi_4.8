@@ -1,0 +1,561 @@
+body{
+	background-color:#f2f2f2;
+}
+.border{
+	border-top:1px solid #cccccc;
+}
+ul.menuc, ul.menuc ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  width: 23em;
+}
+ul.menuc
+{
+	 background-image: url(../images/globalheader.png);
+	 background-repeat:repeat-x;
+}
+ul.menuc a {
+  display: block;
+  text-decoration: none;	
+}
+ul.menuc li {
+  margin-top: -1px;
+}
+ul.menuc li a,ul.menuc li a:hover {
+  color: #000000;	
+  padding: 0.5em;
+  font:12px Arial;
+  border:solid 1px #ccc;
+  text-transform:none;
+  cursor:pointer;
+  white-space:normal;
+  background:#39589c;
+  font-weight:bold;	 	
+	 color:#FFFFFF;
+}
+ul.menuc li ul li a {
+  background: #fff;
+  color: #000;
+  border:solid 1px #ccc;
+}
+ul.menuc li ul li a:hover {
+  background: #fff;
+  border-left: 1px #e3e3e3 solid;
+  color:#F00;  
+}
+.stylenumber{
+	color:#0066FF;
+}
+.da_table_roundCorner_left{	
+background:url(images/dashboard_subtable_round_corner_left.gif) no-repeat;
+width:6px;
+height:26px;
+}
+.da_table_roundCorner_right{	
+background:url(images/dashboard_subtable_round_corner_right.gif) no-repeat;
+width:6px;
+height:26px;
+}
+.da_dashboard_table_heading_bg{	
+background:url(images/dashboard_subtable_bg_gr.gif) repeat-x;
+height:26px;
+}
+.da_dashboard_tbl_subHeading{
+font:bold 13px/18px  Arial;
+color:#fff;
+text-decoration:none;
+text-transform:capitalize;
+text-align:left;
+padding-left:5px;
+}
+.textbox{
+	height:35px;
+}
+.style{
+	height:20px;
+	width:50px;
+	color:#000000;
+	font-weight:bold;
+	font-size:12px;
+	padding-top:4px;
+}
+
+.dashboard_accountText{
+font:normal 11px/13px  Arial, Helvetica, sans-serif;
+color:#212121;
+text-align:left;
+text-decoration:none;
+float:left;
+cursor:pointer;
+width:100%;
+}
+.dashboard_accountText2{
+font:normal 11px/13px  Arial, Helvetica, sans-serif;
+color:#212121;
+text-align:center;
+text-decoration:none;
+float:left;
+cursor:pointer;
+width:100%;
+line-height:15px;
+}
+.dashboard_accountText_headings{
+font:bold 12px/13px  Arial, Helvetica, sans-serif;
+color:#212121;
+text-align:left;
+text-decoration:none;
+text-transform:uppercase;
+cursor:pointer;
+}
+.dashboard_edit_delete_link{
+	font:bold 10px/12px Arial, Helvetica, sans-serif;
+	color:#0066FF;
+	text-align:left;
+	text-decoration:none;
+	text-transform:none;
+	background:#fafafa;
+	width:auto;
+	border:none;
+	cursor:pointer;
+	padding:0px;
+}
+.dashboard_edit_delete_link a:hover{
+	color:#0000FF;
+	text-decoration:none;
+	text-transform:none;
+	background:#f0f0f0;
+	width:auto;
+	cursor:pointer;
+	border:none;
+}
+.dashboard-holiday-app-tbl th{
+border:solid 1px #dbdbdb;
+background:#fafafa;
+font:bold 10px/16px Arial, Helvetica, sans-serif;
+color:#000000;
+text-align:center;
+text-decoration:none;
+text-transform:uppercase;
+}
+.dashboard-holiday-app-tbl td{
+border:solid 1px #dbdbdb;
+font:normal 9px/16px Arial, Helvetica, sans-serif;
+color:#000000;
+background:#fff;
+text-align:center;
+text-decoration:none;
+text-transform:uppercase;
+}
+#div1 {
+	width:180px;
+	padding:3px;
+	border:2px solid #EFEFEF;
+	background-color:#FEFEFE;
+	position:absolute;
+	left:380px;
+	display:none;
+}
+.changepwd{
+	color:#0066FF;
+}
+.panel1{
+background:#39589c;
+	margin-top:10px;
+	border:solid 1px #ccc;
+	color:#FFFFFF;
+	 background-repeat:repeat-x;
+}
+.heading{
+	font:12px Arial;
+	padding:5px;
+	cursor:pointer;
+background:#39589c;
+	font-weight:bold;	
+	 color:#FFFFFF;
+	 width:98%;
+}
+.styletext{
+	font:normal 12px Arial;
+	padding:2px;
+}
+.panelcontent1{
+	background-color:#f2f2f2;
+	font:normal 12px Arial;
+	display:none;
+}
+.panelcontent2{
+	display:none;
+	font:normal 12px Arial;
+	background-color:#FFFFFF;
+}
+.panelcontent3{
+	background-color:#FFFFFF;
+	font:normal 12px Arial;
+	display:none;
+}
+.panelcontent4{
+	background-color:#FFFFFF;
+	font:normal 12px Arial;
+	display:none;
+}
+.subheading{
+	background-color:#f2f2f2;
+	font:bold 12px Arial;
+	padding:5px;
+	padding-left:10px;
+	color:#000000;
+	cursor:pointer;
+}
+.teammembers{
+	padding:10px;
+	width:95%;
+	float:left;
+}
+.teampics{
+	border:1px solid #666666;
+}
+.teamname{
+	font:bold 12px Arial;
+	color:#0033FF;
+}
+.team-desig{
+	font:bold 12px Arial;
+	color:#999999;
+}
+.mytask_submenu{
+	background-color:#f5f5f5;
+	font:normal 12px Arial;
+	padding-top:5px;
+	padding-bottom:5px;
+	color:#000000;
+	display:none;
+	cursor:pointer;
+}
+.mytask_submenu2{
+	background-color:#FFFFFF;
+	font:normal 12px Arial;
+	color:#000000;
+	display:none;
+	cursor:pointer;
+}
+.design{
+	font:normal 12px Arial;
+	color:#000000;
+	padding-left:10px;
+	text-align:left;
+	line-height:20px;
+}
+.design2{
+	font:normal 12px Arial;
+	color:#0066FF;
+	padding-left:10px;
+	margin-top:1px;
+	text-align:left;
+	line-height:20px;
+	width:97%;
+}
+.content{
+	background-color:#FFFFFF;
+	font:normal 12px Arial;
+	color:#0066FF;
+	padding-top:5px;
+	padding-bottom:5px;
+	display:none;
+	padding-left:25px;
+	line-height:20px;
+}
+.submenu{
+	padding-left:25px;
+	float:left;
+	width:93%;
+	background-color:#FFFFFF;
+}
+.holidaycontent{
+	background-color:#FFFFFF;
+	display:none;
+}
+.holidaydesign{
+	font:normal 12px Arial;
+	color:#000000;
+	text-align:left;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:3px;
+	padding-right:3px;
+}
+.count{
+	float:right;
+	width:30px;
+	text-align:right;
+	padding-right:5px;
+	font-weight:bold;
+}
+.subhead_count{
+	float:right;
+	width:50px;
+	text-align:left;
+	font-weight:bold;
+}
+.designation{
+	font:normal 11px Arial;
+	color:#999999;
+}
+.style2 {color: #FFFFFF; background-color:#0066FF;}
+.style3 {
+	font-size: 10px;
+	color: #0066FF;
+}
+.separatedcolor1 {
+	background-image:url(images/seperatorbar2.gif);
+	background-repeat:no-repeat;
+	width:361px;
+	height:5px;
+	margin-left:10px;
+}
+
+.separatedcolor2 {
+	background-image:url(images/seperatorbar.gif);
+	background-repeat:no-repeat;
+	width:300px;
+	height:5px;
+}
+
+/*  */
+
+#tooltipdb{
+	position:absolute;
+	border:1px solid #333;
+	background:#f7f5d1;
+	padding:2px 5px;
+	color:#333;
+	display:none;
+	}	
+#tooltipdb1{
+	position:absolute;
+	border:1px solid #333;
+	background:#f7f5d1;
+	padding:2px 5px;
+	color:#333;
+	display:none;
+	}
+/*  */ 
+
+/* Edit By Ashish, css for Fabric Quality Form */
+
+.oneColLiqCtr #container {
+	width: 100%;  /* this will create a container 80% of the browser width */
+	background: #f2f2f2;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	text-align: left; /* this overrides the text-align: center on the body element. */
+    }
+.oneColLiqCtr #mainContent {
+	padding: 10px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+    }
+    
+.oneColLiqCtr .titleheading {
+	border-left:1px solid #d5d5d5;
+	border-right:1px solid #d5d5d5;
+	border-top:1px solid #d5d5d5;
+	border-bottom:4px solid #d5d5d5;
+	text-align:center;
+	color:#0088cc;
+	font-size:24px;
+    }
+.oneColLiqCtr .classification {
+	text-align:left;
+	margin-top:15px;
+    }
+.oneColLiqCtr .classification .title {
+	color:#000000;
+	font-weight:bold;
+	font-size:12px;
+	background-color:#FFFFFF;
+	padding-left:5px;
+    }
+.oneColLiqCtr .classification td {
+	height:25px;
+	padding-left:5px;
+    }
+.oneColLiqCtr .classification .smallheading {
+	background-color:#eaeaea;
+    }
+.oneColLiqCtr .classification .smallheadtext {
+	background-color:#f5f5f5;
+    }
+    
+    .fabricqualitylist  {
+	width: 100%;  /* this will create a container 80% of the browser width */
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	color: #000000;
+}
+.fabricqualitylist #mainContent {
+	padding: 10px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background-color:#eaeaea;
+}
+.fabricqualitylist .titleheading {
+	border-left:1px solid #d5d5d5;
+	border-right:1px solid #d5d5d5;
+	border-top:1px solid #d5d5d5;
+	border-bottom:4px solid #d5d5d5;
+	text-align:center;
+	color:#0088cc;
+	font-size:24px;
+}
+
+ /* Start Css for Fabric Quality List */
+.fabricqualitylist .fqlsearch {
+	text-align:left;
+	margin-top:15px;
+	background-color:#FFFFFF;
+	color:#000000;
+	width:100%;
+	float:left;
+}
+.oneColLiqCtr .classification .value {
+	background-color:#FFFFFF;
+	color:#0088CC;
+}
+
+.fabricqualitylist .fqlsearch_new {
+	text-align:left;
+	margin-top:15px;
+	background-color:#FFFFFF;
+	color:#000000;
+	width:105%;
+	float:left;
+	border:none;
+}
+
+.fabricqualitylist .fqlsearch_new .title {
+	color:#000000;
+	font-weight:bold;
+	font-size:12px;
+	background-color:#FFFFFF;
+	padding-left:5px;
+}
+
+.fabricqualitylist .fqlsearch_new table {
+	font-size:12px;
+}
+.fabricqualitylist .fqlsearch_new td {
+	height:25px;
+	padding-left:5px;
+}
+
+.fabricqualitylist .fqlsearch .smallheading {
+	background-color:#eaeaea;
+}
+.fabricqualitylist .fqlsearch_new select {
+	color:#0088CC;
+	font-size:12px;
+}
+.text {
+	color:#0088CC;
+	font-size:12px;
+}
+.fabricqualitylist .fqlsearch_new input {
+	color:#0088CC;
+	font-size:12px;
+}
+
+.fabricqualitylist .fqlsearch .title {
+	color:#000000;
+	font-weight:bold;
+	font-size:12px;
+	background-color:#FFFFFF;
+	padding-left:5px;
+}
+.fabricqualitylist .fqlsearch table {
+	border:1px solid #d5d5d5;
+	font-size:12px;
+}
+.fabricqualitylist .fqlsearch td {
+	height:25px;
+	padding-left:5px;
+}
+.fabricqualitylist .fqlsearch .smallheading {
+	background-color:#eaeaea;
+}
+.fabricqualitylist .fqlsearch select {
+	color:#0088CC;
+	font-size:12px;
+}
+.fabricqualitylist .fqlsearch input {
+	color:#0088CC;
+	font-size:12px;
+}
+.fabricqualitylist .classification {
+	text-align:left;
+	margin-top:15px;
+	background-color:#FFFFFF;
+	float:left;
+	width:500px;
+}
+.fabricqualitylist .link {
+	color:#0088CC;
+	text-decoration:none;
+	text-decoration:underline;
+}
+.fabricqualitylist .link:hover{
+	color:#0088CC;
+	text-decoration:none;
+	text-decoration:underline;
+}
+.fabricqualitylist .exportexcel {
+	color:#0088CC;
+	text-decoration:none;
+	text-decoration:underline;
+	font-size:14px;
+}
+.fabricqualitylist .exportexcel:hover{
+	color:#0088CC;
+	text-decoration:none;
+	text-decoration:underline;
+	font-size:14px;
+}
+.fabricqualitylist .classification .smallheading {
+	background-color:#eaeaea;
+	text-align:center;
+}
+.fabricqualitylist .classification table {
+	font-size:12px;
+	border-collapse:collapse;
+	border:1px solid #d5d5d5;
+}
+.fabricqualitylist .classification td {
+	
+}
+
+.fabricqualitylist .submit_print {
+	text-align:left;
+	margin-top:15px;
+}
+.oneColLiqCtr .classification .button {
+	background-color:#0088cc;
+	color:#FFFFFF;
+	border:none;
+	width:60px;
+	height:20px;
+	text-align:center;
+}
+.po .submit_print {
+	text-align:left;
+	margin-top:15px;
+}
+
+#message
+{
+    background: #e5e5e5 none repeat-x left bottom;
+    width: 460px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin: -130px 0 0 -230px;
+    border: 1px solid rgba(33, 33, 33, 0.6);
+    -moz-box-shadow: 0 0 2px rgba(255, 255, 255, 0.6) inset;
+    -webkit-box-shadow: 0 0 2px rgba(255, 255, 255, 0.6) inset;
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.6) inset;
+}
+

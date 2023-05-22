@@ -1,0 +1,64 @@
+#text.SlidingPanels {
+	float: left;
+/*	border: 3px solid #CCCCCC; */
+	
+}
+#text .SlidingPanelsContentGroup {
+	float: left;
+	width: 4000px;
+	background:#FFFFFF;
+	overflow:auto;
+	overflow-x:scroll;
+	overflow-y:scroll;
+	
+	/*border: thick double #CC0033;	*/
+}
+#text .SlidingPanelsContent {
+	float: left;
+	padding-right: 100px;
+	color: #666666;
+	font:normal 13px/16px Arial, Helvetica, sans-serif;
+	text-align:justify;
+/*	background:#ff0000;*/
+}
+
+div.SlidingPanels {
+	width: 340px;
+	height: 400px;
+}
+div.SlidingPanelsContent {
+	width: 340px;
+	height: 400px;
+/*	color: #333333;
+	font-size: 14px;*/
+}
+div.p1 {
+	font-size: 28px;
+	color: #E3137B;
+}
+div.p2 {
+	color: #666666;
+}
+div.p3 {
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 14px;	
+}
+div.p4 {
+	background-color: #FFFFFF;
+}
+
+div.p5 {
+	background-color: #FFFFFF;
+}
+
+div.p6 {
+	background-color: #FFFFFF;
+}
+
+div.p7 {
+	background-color: #FFFFFF;
+}
+div.p8 {
+	background-color: #FFFFFF;
+}

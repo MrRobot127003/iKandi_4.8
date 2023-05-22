@@ -1,0 +1,104 @@
+.jcarousel-scope {
+	width: 884px;
+	padding-top: 0px;
+	padding-right: 18px;
+	padding-bottom: 0px;
+	padding-left: 18px;
+	height: 120px;
+ 
+}
+
+.jcarousel-list {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+	width:  884px;
+	height: 120px;
+}
+.jcarousel-list a {
+ color: #FFFFFF; 
+ }
+ .jcarousel-list img {
+ border: 0px;
+}
+.jcarousel-list li {
+	width: 284px;
+	height: 120px;
+	margin-right: 16px;
+	margin-bottom: 1px;	
+	
+}
+
+.jcarousel-list li :hover {
+	width: 284px;
+	height: 120px;
+}
+/*.jcarousel-list li {
+    margin-left: 1px;
+	margin-bottom: 1px;	
+}*/
+
+.jcarousel-next, .jcarousel-next a {
+  position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 18px;
+    height: 120px;
+    cursor: pointer;
+    background: transparent url(images/next-horizontal-small.gif) no-repeat 0 0;
+}
+
+.jcarousel-next:hover, .jcarousel-next a:hover {
+    background-position: -18px 0;
+}
+
+.jcarousel-next:active, .jcarousel-next a:active {
+    background-position: -36px 0;
+}
+
+.jcarousel-next-disabled, .jcarousel-next-disabled:hover, .jcarousel-next-disabled:active {
+    cursor: default;
+    background-position: -54px 0;
+}
+.jcarousel-next-disabled a, .jcarousel-next-disabled a:hover, .jcarousel-next-disabled a:active {
+    cursor: default;
+    background-position: -54px 0;
+}
+
+.jcarousel-prev, .jcarousel-prev a {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 18px;
+    height: 120px;
+    cursor: pointer;
+    background: transparent url(images/prev-horizontal-small.gif) no-repeat 0 0;
+}
+
+.jcarousel-prev:hover, .jcarousel-prev a:hover {
+    background-position: -18px 0;
+}
+
+.jcarousel-prev:active, .jcarousel-prev a:active {
+    background-position: -36px 0;
+}
+
+.jcarousel-prev-disabled, .jcarousel-prev-disabled:hover, .jcarousel-prev-disabled:active {
+    cursor: default;
+    background-position: -54px 0;
+
+}
+.jcarousel-prev-disabled a, .jcarousel-prev-disabled a:hover, .jcarousel-prev-disabled a:active {
+    cursor: default;
+    background-position: -54px 0;
+
+}
+
+#opacityit img {
+filter: alpha(opacity=50);
+opacity: 0.5;
+}
+#opacityit:hover img{
+filter: alpha(opacity=100);
+opacity: 1;
+}

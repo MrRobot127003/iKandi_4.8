@@ -1,0 +1,55 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iKandi.Web", "iKandi.Web\iKandi.Web.csproj", "{5DC9F05D-FA28-4607-B1EA-434770EF18DB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E825E4AB-94EC-4A0D-B8B3-BF2E3C5C9716} = {E825E4AB-94EC-4A0D-B8B3-BF2E3C5C9716}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iKandi.DAL", "iKandi.DAL\iKandi.DAL.csproj", "{8DF88174-8462-452F-A2FA-5060E624391E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D3EABC39-010B-479A-9ACD-6EA3F5B54BAB} = {D3EABC39-010B-479A-9ACD-6EA3F5B54BAB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iKandi.BLL", "iKandi.BLL\iKandi.BLL.csproj", "{E69622E3-840A-4D0D-ACA6-35E2CD5CC670}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8DF88174-8462-452F-A2FA-5060E624391E} = {8DF88174-8462-452F-A2FA-5060E624391E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iKandi.Common", "iKandi.Common\iKandi.Common.csproj", "{D3EABC39-010B-479A-9ACD-6EA3F5B54BAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iKandi.WebPageScreenShotApp", "WebPageScreenShotApp\iKandi.WebPageScreenShotApp.csproj", "{E825E4AB-94EC-4A0D-B8B3-BF2E3C5C9716}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DC9F05D-FA28-4607-B1EA-434770EF18DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DC9F05D-FA28-4607-B1EA-434770EF18DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DC9F05D-FA28-4607-B1EA-434770EF18DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DC9F05D-FA28-4607-B1EA-434770EF18DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DF88174-8462-452F-A2FA-5060E624391E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DF88174-8462-452F-A2FA-5060E624391E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DF88174-8462-452F-A2FA-5060E624391E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DF88174-8462-452F-A2FA-5060E624391E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E69622E3-840A-4D0D-ACA6-35E2CD5CC670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E69622E3-840A-4D0D-ACA6-35E2CD5CC670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E69622E3-840A-4D0D-ACA6-35E2CD5CC670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E69622E3-840A-4D0D-ACA6-35E2CD5CC670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3EABC39-010B-479A-9ACD-6EA3F5B54BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3EABC39-010B-479A-9ACD-6EA3F5B54BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3EABC39-010B-479A-9ACD-6EA3F5B54BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3EABC39-010B-479A-9ACD-6EA3F5B54BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E825E4AB-94EC-4A0D-B8B3-BF2E3C5C9716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E825E4AB-94EC-4A0D-B8B3-BF2E3C5C9716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E825E4AB-94EC-4A0D-B8B3-BF2E3C5C9716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E825E4AB-94EC-4A0D-B8B3-BF2E3C5C9716}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75B79483-3B88-4BAD-B64E-0825F2B19A49}
+	EndGlobalSection
+EndGlobal

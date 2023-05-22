@@ -1,0 +1,21 @@
+Stored Proc : 
+1. sp_get_all_clients_Order
+2. usp_GetSlot_LinePlanning_Cutting
+
+
+
+Pages:
+
+1.  iKandi.DAL\ClientDataProvider.cs
+function: get_all_clients_Order
+
+2. iKandi.BLL\Client\ClientController.cs
+function: get_all_clients_Order
+
+3. iKandi.DAL\ProductionDataProvider.cs
+function : GetSlot_LinePlanning_cutting
+
+4. iKandi.BLL\Production\ProductionController.cs
+function : GetSlot_LinePlanning_cutting
+
+5. iKandi.Web\Internal\Production\IECuttingSlotEntry.aspx -- both pages

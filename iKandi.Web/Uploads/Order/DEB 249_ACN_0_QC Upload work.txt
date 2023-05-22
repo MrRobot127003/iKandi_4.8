@@ -1,0 +1,47 @@
+Database : Ikandistg
+
+Stored Proc :
+
+1. UpdateQualityNew
+2. InsertQualityNew
+3. Usp_GET_QcProd
+4. Usp_InsertUpdateQcProd
+5. sp_orders_get_orders_basic_info_For_Base
+6. sp_orders_get_orders_basic_info_For_Base_For_iKANDI
+
+function :
+1. Fn_GetQaUploadReport
+
+Pages:
+1. iKandi.DAL\QualityControlDataProvider.cs -- function : InsertQualityNew, UpdateQualityNew
+2. IkandiDev\iKandi.Web\UserControls\Forms\QC.ascx.cs
+3. iKandi.Web\Internal\Delivery\frmQcUploadDocs.aspx
+4. iKandi.DAL\OrderDataProvider.cs -- function : UpdateQcUploadFile, GetOrdersBasicInfo
+5. iKandi.BLL\Order\OrderController.cs -- function : UpdateQcUploadFile
+6. iKandi.Common\Entities\MOOrder.cs
+7. iKandi.Web\UserControls\Lists\ManageOrderBasicInfo.ascx.cs
+
+
+
+CREATE TABLE OrderDetail_QAReport
+
+INSERT INTO OrderDetail_QAReport(OrderDetailId, FirstPieceQAReport, First10PcsQAReport)
+
+SELECT od.Id, SUBSTRING(FirstPieceQAReport, 3,LEN(FirstPieceQAReport)) AS FirstPieceQAReport, 
+SUBSTRING(First10PcsQAReport, 3,LEN(First10PcsQAReport)) AS First10PcsQAReport FROM order_detail od
+WHERE (od.FirstPieceQAReport IS NOT NULL OR od.First10PcsQAReport IS NOT NULL)
+
+
+
+UPDATE OrderDetail_QAReport SET FirstPieceQAReport =  REPLACE(FirstPieceQAReport,'#@','$'), First10PcsQAReport =  REPLACE(First10PcsQAReport,'#@','$') 
+
+---------------------------------------17-9-18-------------------------------------
+
+Stored Proc :
+1. Usp_InsertUpdateQcProd
+2. usp_CheckQCUploadFile
+
+Pages:
+1. IkandiDev\iKandi.DAL\OrderDataProvider.cs -- function : UpdateQcUploadFile, CheckQCUploadFile
+2. iKandi.BLL\Order\OrderController.cs  --- function : CheckQCUploadFile
+3. iKandi.Web\Internal\Delivery\frmQcUploadDocs.aspx

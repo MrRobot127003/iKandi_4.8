@@ -1,0 +1,146 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Public.master.cs" Inherits="iKandi.Web.Public" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title id="Title" runat="server"></title>
+    <meta content="Fashion Garments" name="DESCRIPTION" />
+    <meta content="Fashion" name="KEYWORDS" />
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <asp:ContentPlaceHolder ID="cph_head" runat="server">
+    </asp:ContentPlaceHolder>
+ 
+     <%-- <script type = "text/javascript">
+          function displayNextImage() {
+              x = (x === images.length - 1) ? 0 : x + 1;
+              $("#imgBannerID").attr("src", "../images/loginImages/" + images[x] + ".jpg");
+          }
+          
+          function displayPreviousImage() {
+              x = (x <= 0) ? images.length - 1 : x - 1;
+              $("#imgBannerID").attr("src", "../images/loginImages/" + images[x] + ".jpg");
+          }
+
+          function startTimer() {
+              setInterval(displayNextImage, 3000);
+          }
+          var images = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30];
+          x = -1;
+
+      </script>--%>
+</head>
+
+
+
+<body class="center_bodyCentering" onload = "startTimer()">
+    <!-- TODO --->
+
+    <script type="text/javascript" src='<%= Page.ResolveUrl("~/js/jquery-1.4.4.min.js")%>'></script>
+
+    <script type="text/javascript" src='<%= Page.ResolveUrl("~/js/jquery.jcarousel.js")%>'></script>
+
+    <script type="text/javascript" src='<%= Page.ResolveUrl("~/js/thickbox.js")%>'></script>
+
+    <script type="text/javascript" src='<%= Page.ResolveUrl("~/js/jquery.lightbox-0.5.min.js ")%>'></script>
+
+    <script type="text/javascript" src='<%= Page.ResolveUrl("~/js/jquery.ajaxQueue.js")%>'></script>
+
+    <script type="text/javascript" src='<%= Page.ResolveUrl("~/js/jquery.bgiframe.min.js")%>'></script>
+    
+     <script type="text/javascript" src='<%= Page.ResolveUrl("~/js/permissionurl.js")%>'></script>
+
+     <script type="text/javascript">
+         $(function () {
+             $(".test").hover(function () {  //what should i do here to count
+        //         alert('yaten');
+             });
+         });
+</script>
+    <form id="public_form" runat="server">
+    <div class="validation_messagebox_background">
+    </div>
+    <div class="validation_messagebox">
+        <table style="width: 100%">
+            <tbody>
+                <tr>
+                    <td colspan="2">
+                        <span style="font-weight: bold; margin-left: 20px" class="header-text">The following
+                            errors occurred:</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; padding-top: 5px" rowspan="4">
+                        <img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px;
+                            border-right-width: 0px" src="" class="image-message" />
+                    </td>
+                    <td colspan="2">
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="validation-message">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div style="vertical-align: bottom; text-align: right; display: none" class="message-button-box">
+                            <asp:Button ID="btnClose" runat="server" CssClass="ok" OnClientClick="isCancel = false; ShowHideValidationBox(false); return false;" />
+                        </div>
+                        <div style="vertical-align: bottom; text-align: right; display: none" class="confirmation-button-box">
+                            <asp:Button ID="btnOK" runat="server" CssClass="ok" OnClientClick="isCancel = false; ShowHideConfirmationBox(false); return false;" />
+                            <asp:Button ID="btnCancel" runat="server" CssClass="cancel" OnClientClick="isCancel = true; ShowHideConfirmationBox(false); return false;" />
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="center_contentWrapper">
+        <div class="center_mainContent">
+            <div id="header">
+                <%--<div id="logo" class="logo" onclick="window.location.href='/index.html'">
+                    <a href="/index.html">ikandi</a></div>--%>
+                    <a href="http://www.boutique.in/bipl/index.html"><asp:Image ID="boutiquelogo" runat="server" Height="57px" Width="113px"/> </a>  
+                      
+                <div class="topMenu" style="float: right; margin-right: 5px; width: 50px" runat="server"
+                    id="divDashboard">
+                    <a href="#" id="link0" onclick="uri(this)" title="/index.html">home</a>
+                        <%--  <a href="#" id="A1" onclick="uri(this)" title="/Public/ForgotPassword.aspx">Forgot Password</a>--%>
+                   
+                    </div>
+                <%--<div id="plus2">
+                    |</div>--%>
+                <div id="login" style="float: right; margin-right: 5px; width: 40px">
+                    <asp:LoginStatus ID="LoginStatus1" runat="server" />
+                </div>
+            </div>
+            <div id="greyline" style="display:none;">
+                <div id="corporate">
+                    <a href="" id="link1" runat="server" onclick="uri(this)" title="corporate.html">corporate</a></div>
+                <div id="products">
+                    <a href="" id="link2" runat="server" onclick="uri(this)" title="products.html">products</a></div>
+                <div id="press">
+                    <a href="" id="link3" runat="server" onclick="uri(this)" title="presspictures.html">press pictures</a></div>
+                <div id="news" >
+                    <a href="" id="link4" runat="server" onclick="uri(this)" title="news.html">news</a></div>
+                <div id="contact">
+                    <a href="" id="link5" runat="server" class="test" onclick="uri(this)" title="contact.html">contact</a></div>
+             </div>
+            <asp:ContentPlaceHolder ID="cph_main_content" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div style="clear: both">
+        </div>
+        <div id="footer" style="text-align:center;">
+           <script>document.write((new Date()).getFullYear())</script> © Boutique International Pvt. Ltd. All Rights Reserved <a href="../bipl/terms.html" style="color:Black;"></a></div>
+    </div>
+    </form>
+</body>
+</html>
