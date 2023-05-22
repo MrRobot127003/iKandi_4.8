@@ -13,6 +13,10 @@ using System.Web.UI.WebControls.WebParts;
 using iKandi.Common;
 using iKandi.Web.Components;
 using iKandi.BLL;
+
+
+
+
 namespace iKandi.Web
 {
     public partial class ChangePassword : Page
